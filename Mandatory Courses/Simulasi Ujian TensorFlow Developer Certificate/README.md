@@ -1,6 +1,6 @@
 **Solusi untuk Simulasi Ujian TensorFlow Developer Certificate Dicoding**
 
-*Solusi yang saya buat bisa saja belum optimal, maka dari itu jadikanlah solusi ini untuk referensi saja. Namun, yang terpenting adalah anda memahami konsep yang tertulis pada solusi ini*
+*Solusi yang saya buat bisa saja belum optimal, maka dari itu jadikanlah solusi ini untuk referensi saja. Namun, yang terpenting adalah anda memahami konsep yang tertulis pada solusi ini.*
 
 **In case of any problems, don't hesitate to [contact me][2]. I'll be happy to help.**
 
