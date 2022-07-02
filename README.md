@@ -4,11 +4,9 @@
 
 #
 
-**Solutions for all courses in Bangkit program 2022 (only for machine learning cohort)** 
+**Solutions for all courses during Bangkit program 2022 (only for machine learning cohort)** 
 
 - **Author: [Mohamad Arsya Kaukabi][1]**
-
-- **Affiliation: Universitas Diponegoro**
 
 - **E-mail: arsyakaukabi@gmail.com**
 
@@ -42,7 +40,7 @@ Click this link and you'll find the solution for the corresponding course you're
 [6]:()
 [7]:()
 [8]:()
-[9]:(Mandatory%20Courses\Simulasi%20Ujian%20TensorFlow%20Developer%20Certificate)
+[9]:(Mandatory%20Courses?Simulasi%20Ujian%20TensorFlow%20Developer%20Certificate)
 
 
 ## List of all Expert Class (Bonus) ##
