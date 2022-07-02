@@ -32,7 +32,7 @@ Click this link and you'll find the solution for the corresponding course you're
 
 > [**DeepLearning.AI Tensorflow Data and Deployment Specialization (Coursera)**][8]
 
-> [**Simulasi Ujian TensorFlow Developer Certificate(Coursera)**][9]
+> [**Simulasi Ujian TensorFlow Developer Certificate (Dicoding)**][9]
 
 [3]:()
 [4]:()
@@ -40,7 +40,7 @@ Click this link and you'll find the solution for the corresponding course you're
 [6]:()
 [7]:()
 [8]:()
-[9]:(Mandatory%20Courses?Simulasi%20Ujian%20TensorFlow%20Developer%20Certificate)
+[9]:(bangkit_journey/Mandatory%20Courses/Simulasi%20Ujian%20TensorFlow%20Developer%20Certificate/)
 
 
 ## List of all Expert Class (Bonus) ##
