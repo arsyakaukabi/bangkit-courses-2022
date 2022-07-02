@@ -34,13 +34,13 @@ Click this link and you'll find the solution for the corresponding course you're
 
 > [**Simulasi Ujian TensorFlow Developer Certificate (Dicoding)**][9]
 
-[3]:Mandatory%20Courses\Memulai%20Pemrograman%20Dengan%20Python
-[4]:Mandatory%20Courses\IT%20Automation%20with%20Python
-[5]:Mandatory%20Courses\Mathematics%20for%20Machine%20Learning
-[6]:Mandatory%20Courses\DeepLearning.AI%20TensorFlow%20Developer%20Professional%20Certificate%20Specialization
-[7]:Mandatory%20Courses\Structuring%20Machine%20Learning%20Projects
-[8]:Mandatory%20Courses\DeepLearning.AI%20Tensorflow%20Data%20and%20Deployment%20Specialization
-[9]:Mandatory%20Courses\Simulasi%20Ujian%20TensorFlow%20Developer%20Certificate\
+[3]:Mandatory%20Courses/Memulai%20Pemrograman%20Dengan%20Python
+[4]:Mandatory%20Courses/IT%20Automation%20with%20Python
+[5]:Mandatory%20Courses/Mathematics%20for%20Machine%20Learning
+[6]:Mandatory%20Courses/DeepLearning.AI%20TensorFlow%20Developer%20Professional%20Certificate%20Specialization
+[7]:Mandatory%20Courses/Structuring%20Machine%20Learning%20Projects
+[8]:Mandatory%20Courses/DeepLearning.AI%20Tensorflow%20Data%20and%20Deployment%20Specialization
+[9]:Mandatory%20Courses/Simulasi%20Ujian%20TensorFlow%20Developer%20Certificate/
 
 
 ## List of all Expert Class (Bonus) ##
@@ -57,11 +57,11 @@ Here is the expert class for those of you who has finished above courses. This c
 
 > [**Google UX Design (coursera)**][14]
 
-[10]:Expert%20Class\Evaluasi%20Penguasaan%20Machine%20Learning%20and%20Machine%20Learning%20Terapan
-[11]:Expert%20Class\Google%20Data%20Analytics
-[12]:Expert%20Class\Google%20IT%20Support
-[13]:Expert%20Class\Google%20Project%20Management
-[14]:Expert%20Class\Google%20UX%20Design
+[10]:Expert%20Class/Evaluasi%20Penguasaan%20Machine%20Learning%20and%20Machine%20Learning%20Terapan
+[11]:Expert%20Class/Google%20Data%20Analytics
+[12]:Expert%20Class/Google%20IT%20Support
+[13]:Expert%20Class/Google%20Project%20Management
+[14]:Expert%20Class/Google%20UX%20Design
 
 
 
