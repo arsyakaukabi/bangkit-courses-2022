@@ -66,21 +66,21 @@ Courses in this Professional Certificate
 
 ## Natural Language Processing in TensorFlow ##
 
-> [**Week 1 Quiz** :negative_squared_cross_mark:][17]
+> [**Week 1 Quiz** :white_check_mark:][17]
 
-> [**Explore the BBC news archive** :negative_squared_cross_mark:][18]
+> [**Explore the BBC news archive** :white_check_mark:][18]
 
-> [**Week 2 Quiz** :negative_squared_cross_mark:][19]
+> [**Week 2 Quiz** :white_check_mark:][19]
 
-> [**Diving deeper into the BBC News archive** :negative_squared_cross_mark:][20]
+> [**Diving deeper into the BBC News archive** :white_check_mark:][20]
 
-> [**Week 3 Quiz** :negative_squared_cross_mark:][21]
+> [**Week 3 Quiz** :white_check_mark:][21]
 
-> [**Exploring overfitting in NLP** :negative_squared_cross_mark:][22]
+> [**Exploring overfitting in NLP** :white_check_mark:][22]
 
-> [**Week 4 Quiz** :negative_squared_cross_mark:][23]
+> [**Week 4 Quiz** :white_check_mark:][23]
 
-> [**Predicting the next word** :negative_squared_cross_mark:][24]
+> [**Predicting the next word** :white_check_mark:][24]
 
 [17]:/Mandatory%20Courses/DeepLearning.AI%20TensorFlow%20Developer%20Professional%20Certificate%20Specialization/Natural%20Language%20Processing%20in%20TensorFlow/Week-1-Quiz-Coursera.png
 [18]:https://github.com/omnia-emam/TensorFlow/blob/main/Exploring%20BBC%20news%20archive/C3W1_Assignment_2022_06_04_15_57_55.ipynb
@@ -94,13 +94,13 @@ Courses in this Professional Certificate
 
 ## Sequences, Time Series and Prediction ##
 
-> [**Week 1 Quiz** :negative_squared_cross_mark:][25]
+> [**Week 1 Quiz** :white_check_mark:][25]
 
-> [**Week 2 Quiz** :negative_squared_cross_mark:][26]
+> [**Week 2 Quiz** :white_check_mark:][26]
 
-> [**Week 3 Quiz** :negative_squared_cross_mark:][27]
+> [**Week 3 Quiz** :white_check_mark:][27]
 
-> [**Week 4 Quiz** :negative_squared_cross_mark:][28]
+> [**Week 4 Quiz** :white_check_mark:][28]
 
 [25]:/Mandatory%20Courses/DeepLearning.AI%20TensorFlow%20Developer%20Professional%20Certificate%20Specialization/Sequences%2C%20Time%20Series%20and%20Prediction/Week-1-Quiz-Coursera.png
 [26]:/Mandatory%20Courses/DeepLearning.AI%20TensorFlow%20Developer%20Professional%20Certificate%20Specialization/Sequences%2C%20Time%20Series%20and%20Prediction/Week-2-Quiz-Coursera.png
