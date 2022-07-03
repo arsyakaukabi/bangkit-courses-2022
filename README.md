@@ -30,7 +30,7 @@ Click this link and you'll find the solution for the corresponding course you're
 
 > [**Mathematics for Machine Learning (Coursera)** :negative_squared_cross_mark:][5]
 
-> [**DeepLearning.AI TensorFlow Developer Professional Certificate Specialization (Coursera)** :negative_squared_cross_mark:][6]
+> [**DeepLearning.AI TensorFlow Developer Professional Certificate Specialization (Coursera)** :white_check_mark:][6]
 
 > [**Structuring Machine Learning Projects (Coursera)** :negative_squared_cross_mark:][7]
 
@@ -41,7 +41,7 @@ Click this link and you'll find the solution for the corresponding course you're
 [3]:Mandatory%20Courses/Memulai%20Pemrograman%20Dengan%20Python
 [4]:Mandatory%20Courses/IT%20Automation%20with%20Python
 [5]:Mandatory%20Courses/Mathematics%20for%20Machine%20Learning
-[6]:Mandatory%20Courses/DeepLearning.AI%20TensorFlow%20Developer%20Professional%20Certificate%20Specialization
+[6]:Mandatory%20Courses/DeepLearning.AI%20TensorFlow%20Developer%20Professional%20Certificate%20Specialization/
 [7]:Mandatory%20Courses/Structuring%20Machine%20Learning%20Projects
 [8]:Mandatory%20Courses/DeepLearning.AI%20Tensorflow%20Data%20and%20Deployment%20Specialization
 [9]:Mandatory%20Courses/Simulasi%20Ujian%20TensorFlow%20Developer%20Certificate/
