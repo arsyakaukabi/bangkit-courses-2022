@@ -10,23 +10,23 @@ Courses in this Professional Certificate
 
 ## Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning ##
 
-> [Week 1 Quiz][1]
+> [Week 1 Quiz :white_check_mark:][1]
 
-> [Housing Prices][2]
+> [Housing Prices :negative_squared_cross_mark:][2]
 
-> [Week 2 Quiz][3]
+> [Week 2 Quiz :negative_squared_cross_mark:][3]
 
-> [Implementing Callbacks in TensorFlow using the MNIST Dataset][4]
+> [Implementing Callbacks in TensorFlow using the MNIST Dataset :negative_squared_cross_mark:][4]
 
-> [Week 3 Quiz][5]
+> [Week 3 Quiz :negative_squared_cross_mark:][5]
 
-> [Improve MNIST with convolutions][6]
+> [Improve MNIST with convolutions :negative_squared_cross_mark:][6]
 
-> [Week 4 Quiz][7]
+> [Week 4 Quiz :negative_squared_cross_mark:][7]
 
-> [Handling Complex Images][8]
+> [Handling Complex Images :negative_squared_cross_mark:][8]
 
-[1]:/
+[1]:/Mandatory%20Courses/DeepLearning.AI%20TensorFlow%20Developer%20Professional%20Certificate%20Specialization/Introduction%20to%20TensorFlow%20for%20Artificial%20Intelligence%2C%20Machine%20Learning%2C%20and%20Deep%20Learning/Week%201%20Quiz.png
 [2]:/
 [3]:/
 [4]:/
@@ -38,21 +38,21 @@ Courses in this Professional Certificate
 
 ## Convolutional Neural Networks in TensorFlow ##
 
-> [Week 1 Quiz][9]
+> [Week 1 Quiz :negative_squared_cross_mark:][9]
 
-> [Cats vs Dogs][10]
+> [Cats vs Dogs :negative_squared_cross_mark:][10]
 
-> [Week 2 Quiz][11]
+> [Week 2 Quiz :negative_squared_cross_mark:][11]
 
-> [Cats vs Dogs with Data Augmentation][12]
+> [Cats vs Dogs with Data Augmentation :negative_squared_cross_mark:][12]
 
-> [Week 3 Quiz][13]
+> [Week 3 Quiz :negative_squared_cross_mark:][13]
 
-> [Transfer Learning - Horses vs Humans][14]
+> [Transfer Learning - Horses vs Humans :negative_squared_cross_mark:][14]
 
-> [Week 4 Quiz][15]
+> [Week 4 Quiz :negative_squared_cross_mark:][15]
 
-> [Classification: Beyond two classes][16]
+> [Classification: Beyond two classes :negative_squared_cross_mark:][16]
 
 [9]:/
 [10]:/
@@ -67,21 +67,21 @@ Courses in this Professional Certificate
 
 ## Natural Language Processing in TensorFlow ##
 
-> [Week 1 Quiz][17]
+> [Week 1 Quiz :negative_squared_cross_mark:][17]
 
-> [Explore the BBC news archive][18]
+> [Explore the BBC news archive :negative_squared_cross_mark:][18]
 
-> [Week 2 Quiz][19]
+> [Week 2 Quiz :negative_squared_cross_mark:][19]
 
-> [Diving deeper into the BBC News archive][20]
+> [Diving deeper into the BBC News archive :negative_squared_cross_mark:][20]
 
-> [Week 3 Quiz][21]
+> [Week 3 Quiz :negative_squared_cross_mark:][21]
 
-> [Exploring overfitting in NLP][22]
+> [Exploring overfitting in NLP :negative_squared_cross_mark:][22]
 
-> [Week 4 Quiz][23]
+> [Week 4 Quiz :negative_squared_cross_mark:][23]
 
-> [Predicting the next word][24]
+> [Predicting the next word :negative_squared_cross_mark:][24]
 
 [17]:/
 [18]:/
@@ -95,13 +95,13 @@ Courses in this Professional Certificate
 
 ## Sequences, Time Series and Prediction ##
 
-> [Week 1 Quiz][25]
+> [Week 1 Quiz :negative_squared_cross_mark:][25]
 
-> [Week 2 Quiz][26]
+> [Week 2 Quiz :negative_squared_cross_mark:][26]
 
-> [Week 3 Quiz][27]
+> [Week 3 Quiz :negative_squared_cross_mark:][27]
 
-> [Week 4 Quiz][28]
+> [Week 4 Quiz :negative_squared_cross_mark:][28]
 
 [25]:/
 [26]:/
