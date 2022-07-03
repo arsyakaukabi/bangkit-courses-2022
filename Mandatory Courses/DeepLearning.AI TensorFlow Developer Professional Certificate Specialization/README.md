@@ -10,21 +10,21 @@ Courses in this Professional Certificate
 
 ## Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning ##
 
-> [**Week 1 Quiz** :white_check_mark:][1]
+> [**Week 1 Quiz** :heavy_check_mark:][1]
 
-> [**Housing Prices** :white_check_mark:][2]
+> [**Housing Prices** :heavy_check_mark:][2]
 
-> [**Week 2 Quiz ** :white_check_mark:][3]
+> [**Week 2 Quiz** :heavy_check_mark:][3]
 
-> [**Implementing Callbacks in TensorFlow using the MNIST Dataset** :white_check_mark:][4]
+> [**Implementing Callbacks in TensorFlow using the MNIST Dataset** :heavy_check_mark:][4]
 
-> [**Week 3 Quiz** :white_check_mark:][5]
+> [**Week 3 Quiz** :heavy_check_mark:][5]
 
-> [**Improve MNIST with convolutions** :white_check_mark:][6]
+> [**Improve MNIST with convolutions** :heavy_check_mark:][6]
 
-> [**Week 4 Quiz** ::white_check_mark:][7]
+> [**Week 4 Quiz** ::heavy_check_mark:][7]
 
-> [**Handling Complex Images** :white_check_mark:][8]
+> [**Handling Complex Images** :heavy_check_mark:][8]
 
 [1]:/Mandatory%20Courses/DeepLearning.AI%20TensorFlow%20Developer%20Professional%20Certificate%20Specialization/Introduction%20to%20TensorFlow%20for%20Artificial%20Intelligence%2C%20Machine%20Learning%2C%20and%20Deep%20Learning/Week%201%20Quiz.png
 [2]:/Mandatory%20Courses/DeepLearning.AI%20TensorFlow%20Developer%20Professional%20Certificate%20Specialization/Introduction%20to%20TensorFlow%20for%20Artificial%20Intelligence%2C%20Machine%20Learning%2C%20and%20Deep%20Learning/C1W1_Assignment.ipynb
@@ -38,21 +38,21 @@ Courses in this Professional Certificate
 
 ## Convolutional Neural Networks in TensorFlow ##
 
-> [**Week 1 Quiz** :white_check_mark:][9]
+> [**Week 1 Quiz** :heavy_check_mark:][9]
 
-> [**Cats vs Dogs** :white_check_mark:][10]
+> [**Cats vs Dogs** :heavy_check_mark:][10]
 
-> [**Week 2 Quiz** :white_check_mark:][11]
+> [**Week 2 Quiz** :heavy_check_mark:][11]
 
-> [**Cats vs Dogs with Data Augmentation** :white_check_mark:][12]
+> [**Cats vs Dogs with Data Augmentation** :heavy_check_mark:][12]
 
-> [**Week 3 Quiz** :white_check_mark:][13]
+> [**Week 3 Quiz** :heavy_check_mark:][13]
 
-> [**Transfer Learning - Horses vs Humans** :white_check_mark:][14]
+> [**Transfer Learning - Horses vs Humans** :heavy_check_mark:][14]
 
-> [**Week 4 Quiz** :white_check_mark:][15]
+> [**Week 4 Quiz** :heavy_check_mark:][15]
 
-> [**Classification: Beyond two classes** :white_check_mark:][16]
+> [**Classification: Beyond two classes** :heavy_check_mark:][16]
 
 [9]:/Mandatory%20Courses/DeepLearning.AI%20TensorFlow%20Developer%20Professional%20Certificate%20Specialization/Convolutional%20Neural%20Networks%20in%20TensorFlow/Week%201%20Quiz.png
 [10]:https://github.com/alaeddinehamroun/Convolutional-Neural-Networks-in-TensorFlow-course-assignments/blob/main/Copy_of_C2W1_Assignment.ipynb
@@ -66,21 +66,21 @@ Courses in this Professional Certificate
 
 ## Natural Language Processing in TensorFlow ##
 
-> [**Week 1 Quiz** :white_check_mark:][17]
+> [**Week 1 Quiz** :heavy_check_mark:][17]
 
-> [**Explore the BBC news archive** :white_check_mark:][18]
+> [**Explore the BBC news archive** :heavy_check_mark:][18]
 
-> [**Week 2 Quiz** :white_check_mark:][19]
+> [**Week 2 Quiz** :heavy_check_mark:][19]
 
-> [**Diving deeper into the BBC News archive** :white_check_mark:][20]
+> [**Diving deeper into the BBC News archive** :heavy_check_mark:][20]
 
-> [**Week 3 Quiz** :white_check_mark:][21]
+> [**Week 3 Quiz** :heavy_check_mark:][21]
 
-> [**Exploring overfitting in NLP** :white_check_mark:][22]
+> [**Exploring overfitting in NLP** :heavy_check_mark:][22]
 
-> [**Week 4 Quiz** :white_check_mark:][23]
+> [**Week 4 Quiz** :heavy_check_mark:][23]
 
-> [**Predicting the next word** :white_check_mark:][24]
+> [**Predicting the next word** :heavy_check_mark:][24]
 
 [17]:/Mandatory%20Courses/DeepLearning.AI%20TensorFlow%20Developer%20Professional%20Certificate%20Specialization/Natural%20Language%20Processing%20in%20TensorFlow/Week-1-Quiz-Coursera.png
 [18]:https://github.com/omnia-emam/TensorFlow/blob/main/Exploring%20BBC%20news%20archive/C3W1_Assignment_2022_06_04_15_57_55.ipynb
@@ -94,13 +94,13 @@ Courses in this Professional Certificate
 
 ## Sequences, Time Series and Prediction ##
 
-> [**Week 1 Quiz** :white_check_mark:][25]
+> [**Week 1 Quiz** :heavy_check_mark:][25]
 
-> [**Week 2 Quiz** :white_check_mark:][26]
+> [**Week 2 Quiz** :heavy_check_mark:][26]
 
-> [**Week 3 Quiz** :white_check_mark:][27]
+> [**Week 3 Quiz** :heavy_check_mark:][27]
 
-> [**Week 4 Quiz** :white_check_mark:][28]
+> [**Week 4 Quiz** :heavy_check_mark:][28]
 
 [25]:/Mandatory%20Courses/DeepLearning.AI%20TensorFlow%20Developer%20Professional%20Certificate%20Specialization/Sequences%2C%20Time%20Series%20and%20Prediction/Week-1-Quiz-Coursera.png
 [26]:/Mandatory%20Courses/DeepLearning.AI%20TensorFlow%20Developer%20Professional%20Certificate%20Specialization/Sequences%2C%20Time%20Series%20and%20Prediction/Week-2-Quiz-Coursera.png
