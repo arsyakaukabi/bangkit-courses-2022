@@ -12,28 +12,28 @@ Courses in this Professional Certificate
 
 > [Week 1 Quiz :white_check_mark:][1]
 
-> [Housing Prices :negative_squared_cross_mark:][2]
+> [Housing Prices :white_check_mark:][2]
 
-> [Week 2 Quiz :negative_squared_cross_mark:][3]
+> [Week 2 Quiz  :white_check_mark:][3]
 
-> [Implementing Callbacks in TensorFlow using the MNIST Dataset :negative_squared_cross_mark:][4]
+> [Implementing Callbacks in TensorFlow using the MNIST Dataset :white_check_mark:][4]
 
-> [Week 3 Quiz :negative_squared_cross_mark:][5]
+> [Week 3 Quiz :white_check_mark:][5]
 
-> [Improve MNIST with convolutions :negative_squared_cross_mark:][6]
+> [Improve MNIST with convolutions :white_check_mark:][6]
 
-> [Week 4 Quiz :negative_squared_cross_mark:][7]
+> [Week 4 Quiz ::white_check_mark:][7]
 
-> [Handling Complex Images :negative_squared_cross_mark:][8]
+> [Handling Complex Images :white_check_mark:][8]
 
 [1]:/Mandatory%20Courses/DeepLearning.AI%20TensorFlow%20Developer%20Professional%20Certificate%20Specialization/Introduction%20to%20TensorFlow%20for%20Artificial%20Intelligence%2C%20Machine%20Learning%2C%20and%20Deep%20Learning/Week%201%20Quiz.png
-[2]:/
-[3]:/
-[4]:/
-[5]:/
-[6]:/
-[7]:/
-[8]:/
+[2]:https://github.com/DrMuzi/Introduction-to-TensorFlow-for-Artificial-Intelligence-Machine-Learning-and-Deep-Learning/blob/main/C1W1_Assignment.ipynb
+[3]:/Mandatory%20Courses/DeepLearning.AI%20TensorFlow%20Developer%20Professional%20Certificate%20Specialization/Introduction%20to%20TensorFlow%20for%20Artificial%20Intelligence%2C%20Machine%20Learning%2C%20and%20Deep%20Learning/Week%202%20Quiz.png
+[4]:https://github.com/utkarsh125/Introduction-to-TensorFlow-Coursera/blob/main/C1W2_Assignment.ipynb
+[5]:/Mandatory%20Courses/DeepLearning.AI%20TensorFlow%20Developer%20Professional%20Certificate%20Specialization/Introduction%20to%20TensorFlow%20for%20Artificial%20Intelligence%2C%20Machine%20Learning%2C%20and%20Deep%20Learning/Week%203%20Quiz.png
+[6]:https://github.com/utkarsh125/Introduction-to-TensorFlow-Coursera/blob/main/C1W3_Assignment.ipynb
+[7]:/Mandatory%20Courses/DeepLearning.AI%20TensorFlow%20Developer%20Professional%20Certificate%20Specialization/Introduction%20to%20TensorFlow%20for%20Artificial%20Intelligence%2C%20Machine%20Learning%2C%20and%20Deep%20Learning/Week%204%20Quiz.png
+[8]:https://github.com/utkarsh125/Introduction-to-TensorFlow-Coursera/blob/main/C1W4_Assignment.ipynb
 
 
 ## Convolutional Neural Networks in TensorFlow ##
