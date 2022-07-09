@@ -1,3 +1,13 @@
+Course link : [Coursera](https://www.coursera.org/professional-certificates/tensorflow-in-practice?utm_source=deeplearning-ai&utm_medium=institutions&utm_campaign=TF2)
+
+- **Author: [Mohamad Arsya Kaukabi][29]**
+
+- **E-mail: arsyakaukabi@gmail.com**
+
+**In case of any problems, don't hesitate to [contact me][29]. I'll be happy to help.**
+
+[29]:https://www.instagram.com/arsyakaukabi/
+
 # DeepLearning.AI TensorFlow Developer
 
 Courses in this Professional Certificate

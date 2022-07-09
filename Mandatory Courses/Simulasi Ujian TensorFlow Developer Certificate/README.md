@@ -1,8 +1,17 @@
+Course link : [Dicoding](https://www.dicoding.com/academies/312)
+
+- **Author: [Mohamad Arsya Kaukabi][1]**
+
+- **E-mail: arsyakaukabi@gmail.com**
+
+**In case of any problems, don't hesitate to [contact me][1]. I'll be happy to help.**
+
+**This work contain solutions only for graded assignments, use this work wisely.**
+#
+
 **Solusi untuk Simulasi Ujian TensorFlow Developer Certificate Dicoding**
 
 *Solusi yang saya buat bisa saja belum optimal, maka dari itu jadikanlah solusi ini untuk referensi saja. Namun, yang terpenting adalah anda memahami konsep yang tertulis pada solusi ini.*
-
-**In case of any problems, don't hesitate to [contact me][2]. I'll be happy to help.**
 
 ## Deskripsi Courses ##
 Latihan ujian sebagai persiapan pengambilan ujian sertifikasi TensorFlow Developer Certificate pada program Google Developers Certification.

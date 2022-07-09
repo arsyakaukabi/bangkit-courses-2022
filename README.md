@@ -34,7 +34,7 @@ Click this link and you'll find the solution for the corresponding course you're
 
 > [**Structuring Machine Learning Projects (Coursera)** :heavy_check_mark:][7]
 
-> [**DeepLearning.AI Tensorflow Data and Deployment Specialization (Coursera)** :x:][8]
+> [**DeepLearning.AI Tensorflow Data and Deployment Specialization (Coursera)** :heavy_check_mark:][8]
 
 > [**Simulasi Ujian TensorFlow Developer Certificate (Dicoding)** :heavy_check_mark:][9] 
 
@@ -47,7 +47,7 @@ Click this link and you'll find the solution for the corresponding course you're
 [9]:Mandatory%20Courses/Simulasi%20Ujian%20TensorFlow%20Developer%20Certificate/
 
 
-## List of all Expert Class (Bonus) ##
+## List of all Expert Classes (Bonus) ##
 
 Here is the expert class for those of you who has finished above courses. This courses is not mandatory but it would be worth it to learn.
 
