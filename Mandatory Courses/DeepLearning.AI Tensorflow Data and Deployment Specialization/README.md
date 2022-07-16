@@ -47,60 +47,59 @@ Courses in this Professional Certificate
 
 ## Device-based Models with TensorFlow Lite ##
 
-> [**Week Quiz 1**][1]
+> [**Week Quiz 1**][9]
 
-> [**Exercise 1 - Train Your Own Model and Convert It to TFLite**][2]
+> [**Exercise 1 - Train Your Own Model and Convert It to TFLite**][10]
 
-> [**Week 2 Quiz**][3]
+> [**Week 2 Quiz**][11]
 
-> [**Week 3 Quiz**][5]
+> [**Week 3 Quiz**][12]
 
-> [**Week 4 Quiz**][7]
+> [**Week 4 Quiz**][13]
 
-[1]:test
-[2]:test
-[3]:test
-[4]:test
-[5]:test
-[6]:test
-[7]:test
+[9]:/Mandatory%20Courses/DeepLearning.AI%20Tensorflow%20Data%20and%20Deployment%20Specialization/Device-based%20Models%20with%20TensorFlow%20Lite/Week-1-Quiz-Coursera.png
+[10]:/Mandatory%20Courses/DeepLearning.AI%20Tensorflow%20Data%20and%20Deployment%20Specialization/Device-based%20Models%20with%20TensorFlow%20Lite/Exercise_1_TF_Lite_Question-FINAL.ipynb
+[11]:/Mandatory%20Courses/DeepLearning.AI%20Tensorflow%20Data%20and%20Deployment%20Specialization/Device-based%20Models%20with%20TensorFlow%20Lite/Week-2-Quiz-Coursera.png
+[12]:/Mandatory%20Courses/DeepLearning.AI%20Tensorflow%20Data%20and%20Deployment%20Specialization/Device-based%20Models%20with%20TensorFlow%20Lite/Week-3-Quiz-Coursera.png
+[13]:/Mandatory%20Courses/DeepLearning.AI%20Tensorflow%20Data%20and%20Deployment%20Specialization/Device-based%20Models%20with%20TensorFlow%20Lite/Week-4-Quiz-Coursera.png
+
 
 
 ## Data Pipelines with TensorFlow Data Services ##
 
-> [**TFDS with Rock, Paper and Scissors**][1]
+> [**TFDS with Rock, Paper and Scissors**][14]
 
-> [**Transfer Learning and Splits API**][2]
+> [**Transfer Learning and Splits API**][15]
 
-> [**Classify Structured Data**][3]
+> [**Classify Structured Data**][16]
 
-> [**Parallelization with TFDS**][4]
+> [**Parallelization with TFDS**][17]
 
-[1]:test
-[2]:test
-[3]:test
-[4]:test
+[14]:/Mandatory%20Courses/DeepLearning.AI%20Tensorflow%20Data%20and%20Deployment%20Specialization/Data%20Pipelines%20with%20TensorFlow%20Data%20Services/TFDS-V2-Week1.ipynb
+[15]:/Mandatory%20Courses/DeepLearning.AI%20Tensorflow%20Data%20and%20Deployment%20Specialization/Data%20Pipelines%20with%20TensorFlow%20Data%20Services/TFDS-V2-Week2.ipynb
+[16]:/Mandatory%20Courses/DeepLearning.AI%20Tensorflow%20Data%20and%20Deployment%20Specialization/Data%20Pipelines%20with%20TensorFlow%20Data%20Services/TFDS-V2-Week3.ipynb
+[17]:/Mandatory%20Courses/DeepLearning.AI%20Tensorflow%20Data%20and%20Deployment%20Specialization/Data%20Pipelines%20with%20TensorFlow%20Data%20Services/TFDS-V2-Week4.ipynb
 
 
 
 ## Advanced Deployment Scenarios with TensorFlow ##
 
-> [**Week Quiz 1**][1]
+> [**Week Quiz 1**][18]
 
-> [**Week 2 Quiz**][3]
+> [**Week 2 Quiz**][19]
 
-> [**Exercise 2**][4]
+> [**Exercise 2**][20]
 
-> [**Week 3 Quiz**][5]
+> [**Week 3 Quiz**][21]
 
-> [**Exercise 3**][6]
+> [**Exercise 3**][22]
 
-> [**Week 4 Quiz**][7]
+> [**Week 4 Quiz**][23]
 
-[1]:test
-[2]:test
-[3]:test
-[4]:test
-[5]:test
-[6]:test
-[7]:test
+[18]:/Mandatory%20Courses/DeepLearning.AI%20Tensorflow%20Data%20and%20Deployment%20Specialization/Advanced%20Deployment%20Scenarios%20with%20TensorFlow/Week-1-Quiz-Coursera.png
+[19]:/Mandatory%20Courses/DeepLearning.AI%20Tensorflow%20Data%20and%20Deployment%20Specialization/Advanced%20Deployment%20Scenarios%20with%20TensorFlow/Week-2-Quiz-Coursera.png
+[20]: /Mandatory%20Courses/DeepLearning.AI%20Tensorflow%20Data%20and%20Deployment%20Specialization/Advanced%20Deployment%20Scenarios%20with%20TensorFlow/TF_Serving_Week_2_Exercise_Question.ipynb
+[21]:/Mandatory%20Courses/DeepLearning.AI%20Tensorflow%20Data%20and%20Deployment%20Specialization/Advanced%20Deployment%20Scenarios%20with%20TensorFlow/Week-3-Quiz-Coursera.png
+[22]: /Mandatory%20Courses/DeepLearning.AI%20Tensorflow%20Data%20and%20Deployment%20Specialization/Advanced%20Deployment%20Scenarios%20with%20TensorFlow/TF_Serving_Week_3_Exercise_Question.ipynb
+[23]:/Mandatory%20Courses/DeepLearning.AI%20Tensorflow%20Data%20and%20Deployment%20Specialization/Advanced%20Deployment%20Scenarios%20with%20TensorFlow/Week-4-Quiz-Coursera.png
+

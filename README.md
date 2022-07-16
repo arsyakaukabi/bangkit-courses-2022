@@ -38,6 +38,8 @@ Click this link and you'll find the solution for the corresponding course you're
 
 > [**Simulasi Ujian TensorFlow Developer Certificate (Dicoding)** :heavy_check_mark:][9] 
 
+> [**Meniti Karier sebagai Software Developer (Dicoding)** :heavy_check_mark:][15]
+
 [3]:Mandatory%20Courses/Memulai%20Pemrograman%20Dengan%20Python
 [4]:Mandatory%20Courses/IT%20Automation%20with%20Python
 [5]:Mandatory%20Courses/Mathematics%20for%20Machine%20Learning
@@ -45,6 +47,8 @@ Click this link and you'll find the solution for the corresponding course you're
 [7]:Mandatory%20Courses/Structuring%20Machine%20Learning%20Projects
 [8]:Mandatory%20Courses/DeepLearning.AI%20Tensorflow%20Data%20and%20Deployment%20Specialization
 [9]:Mandatory%20Courses/Simulasi%20Ujian%20TensorFlow%20Developer%20Certificate/
+[15]:/Mandatory%20Courses/Meniti%20Karier%20sebagai%20Software%20Developer/
+
 
 
 ## List of all Expert Classes (Bonus) ##
