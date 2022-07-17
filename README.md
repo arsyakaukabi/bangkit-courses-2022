@@ -12,7 +12,7 @@
 
 
 #
-Due to my busy schedule, the solution will be sent periodically. If you want a solution that hasn't been covered in this work, please contact me.
+**Due to my busy schedule, the solution will be sent periodically. If you want a solution that hasn't been covered in this work, please contact me.** 
 
 **In case of any problems, don't hesitate to [contact me][1]. I'll be happy to help.**
 
@@ -55,15 +55,15 @@ Click this link and you'll find the solution for the corresponding course you're
 
 Here is the expert class for those of you who has finished above courses. This courses is not mandatory but it would be worth it to learn.
 
-> [**Evaluasi Penguasaan Machine Learning and Machine Learning Terapan (dicoding)** :x:][10]
+> [**Evaluasi Penguasaan Machine Learning and Machine Learning Terapan (Dicoding)** :x:][10]
 
-> [**Google Data Analytics (coursera)** :x:][11]
+> [**Google Data Analytics (Coursera)** :x:][11]
 
-> [**Google IT Support (coursera)** :x:][12]
+> [**Google IT Support (Coursera)** :x:][12]
 
-> [**Google Project Management (coursera)** :x:][13]
+> [**Google Project Management (Coursera)** :x:][13]
 
-> [**Google UX Design (coursera)** :x:][14]
+> [**Google UX Design (Coursera)** :x:][14]
 
 [10]:Expert%20Class/Evaluasi%20Penguasaan%20Machine%20Learning%20and%20Machine%20Learning%20Terapan
 [11]:Expert%20Class/Google%20Data%20Analytics
