@@ -36,14 +36,13 @@ Courses in this Professional Certificate
 > [**Week 4 - Rock Paper Scissors**][8]
 
 [1]:/Mandatory%20Courses/DeepLearning.AI%20Tensorflow%20Data%20and%20Deployment%20Specialization/Browser-based%20Models%20with%20TensorFlow.js/Quiz-1-Coursera.png
-[2]:https://github.com/Guyroscopic/Browser_Based_Models_with_Tensorflow.js_Tensorflow_Data_and_Deployment_Specialization/tree/main/Week%201
+[2]:https://github.com/Hyuto/bangkit-ml-2021/tree/e19f1111e3f84b78f53e14708510a243d5c63dec/TensorFlow%20-%20Data%20and%20Deployment/01.%20Browser-based%20Models%20with%20TensorFlow.js/Week%201/Exercise
 [3]:/Mandatory%20Courses/DeepLearning.AI%20Tensorflow%20Data%20and%20Deployment%20Specialization/Browser-based%20Models%20with%20TensorFlow.js/Week-2-Quiz-Coursera.png
-[4]:https://github.com/Guyroscopic/Browser_Based_Models_with_Tensorflow.js_Tensorflow_Data_and_Deployment_Specialization/tree/main/Week%202
+[4]:https://github.com/Hyuto/bangkit-ml-2021/tree/e19f1111e3f84b78f53e14708510a243d5c63dec/TensorFlow%20-%20Data%20and%20Deployment/01.%20Browser-based%20Models%20with%20TensorFlow.js/Week%202/Exercise
 [5]:/Mandatory%20Courses/DeepLearning.AI%20Tensorflow%20Data%20and%20Deployment%20Specialization/Browser-based%20Models%20with%20TensorFlow.js/Week-3-Quiz-Coursera.png
-[6]:https://github.com/prashant9316/Tensorflow-Data-and-Deployment-Specalization/tree/master/01_Course_Tensorflow-js/Week%203/Exercise
+[6]:https://github.com/Hyuto/bangkit-ml-2021/tree/e19f1111e3f84b78f53e14708510a243d5c63dec/TensorFlow%20-%20Data%20and%20Deployment/01.%20Browser-based%20Models%20with%20TensorFlow.js/Week%203/Exercise
 [7]:/Mandatory%20Courses/DeepLearning.AI%20Tensorflow%20Data%20and%20Deployment%20Specialization/Browser-based%20Models%20with%20TensorFlow.js/Week-4-Quiz-Coursera.png
-[8]:https://github.com/prashant9316/Tensorflow-Data-and-Deployment-Specalization/tree/master/01_Course_Tensorflow-js/Week%204/Exercise
-
+[8]:https://github.com/Hyuto/bangkit-ml-2021/tree/e19f1111e3f84b78f53e14708510a243d5c63dec/TensorFlow%20-%20Data%20and%20Deployment/01.%20Browser-based%20Models%20with%20TensorFlow.js/Week%204/Exercise
 
 ## Device-based Models with TensorFlow Lite ##
 
