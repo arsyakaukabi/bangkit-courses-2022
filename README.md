@@ -24,7 +24,7 @@ Due to my busy schedule, the solution will be sent periodically. If you want a s
 
 Click this link and you'll find the solution for the corresponding course you're looking for.
 
-> [**Memulai Pemrograman Dengan Python (Dicoding)** :x:][3]
+> [**Memulai Pemrograman Dengan Python (Dicoding)** :heavy_check_mark:][3]
 
 > [**IT Automation with Python (Coursera)** :heavy_check_mark:][4]
 
