@@ -26,7 +26,7 @@ Click this link and you'll find the solution for the corresponding course you're
 
 > [**Memulai Pemrograman Dengan Python (Dicoding)** :x:][3]
 
-> [**IT Automation with Python (Coursera)** :x:][4]
+> [**IT Automation with Python (Coursera)** :heavy_check_mark:][4]
 
 > [**Mathematics for Machine Learning (Coursera)** :x:][5]
 
@@ -41,7 +41,7 @@ Click this link and you'll find the solution for the corresponding course you're
 > [**Meniti Karier sebagai Software Developer (Dicoding)** :heavy_check_mark:][15]
 
 [3]:Mandatory%20Courses/Memulai%20Pemrograman%20Dengan%20Python
-[4]:Mandatory%20Courses/IT%20Automation%20with%20Python
+[4]:https://github.com/elmoallistair/google-it-automation
 [5]:Mandatory%20Courses/Mathematics%20for%20Machine%20Learning
 [6]:Mandatory%20Courses/DeepLearning.AI%20TensorFlow%20Developer%20Professional%20Certificate%20Specialization/
 [7]:Mandatory%20Courses/Structuring%20Machine%20Learning%20Projects

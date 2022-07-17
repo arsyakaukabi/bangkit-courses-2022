@@ -1,0 +1,1362 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)https://www.dicoding.com/academies/86/tutorials/16415 -->
+<html lang="en" class="fonts-loaded fa-events-icons-ready"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="FzBltXnRNKxgd_Ut8VGO0UK4yGI5LGSouseIxa4iHyA">
+        <meta name="robots" content="all">
+            <link rel="canonical" href="https://www.dicoding.com/academies/86/tutorials/16415">
+        <link rel="apple-touch-icon" sizes="57x57" href="https://www.dicoding.com/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://www.dicoding.com/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://www.dicoding.com/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://www.dicoding.com/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://www.dicoding.com/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://www.dicoding.com/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://www.dicoding.com/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://www.dicoding.com/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.dicoding.com/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="https://www.dicoding.com/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://www.dicoding.com/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="https://www.dicoding.com/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="https://www.dicoding.com/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="https://www.dicoding.com/manifest.json">
+    <link rel="mask-icon" href="https://www.dicoding.com/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2d3e50">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta name="author" content="Dicoding Indonesia">
+    <meta name="publisher" content="Dicoding Indonesia">
+
+    <!-- Twitter Card-->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@dicoding">
+    <meta name="twitter:creator" content="@dicoding">
+
+    
+    <title>    Knowledge Check - Pemrograman Berorientasi Objek | Memulai Pemrograman Dengan Python |
+Dicoding Indonesia</title>
+
+            <link rel="stylesheet" href="./Knowledge Check - Pemrograman Berorientasi Objek_files/commons_style-c1472f4e3c.css">
+    <link rel="stylesheet" href="./Knowledge Check - Pemrograman Berorientasi Objek_files/addons_style-7dd4c112cf.css" as="style" onload="this.rel=&#39;stylesheet&#39;">
+<noscript><link rel="stylesheet" href='https://d17ivq9b7rppb3.cloudfront.net/build/addons_style-7dd4c112cf.css'></noscript>
+    <link rel="stylesheet" href="./Knowledge Check - Pemrograman Berorientasi Objek_files/v3common_style-de848e0d3e.css" as="style" onload="this.rel=&#39;stylesheet&#39;">
+<noscript><link rel="stylesheet" href='https://d17ivq9b7rppb3.cloudfront.net/build/v3common_style-de848e0d3e.css'></noscript>
+    <link rel="stylesheet" href="./Knowledge Check - Pemrograman Berorientasi Objek_files/semicolon_style-5fc8919701.css" as="style" onload="this.rel=&#39;stylesheet&#39;">
+<noscript><link rel="stylesheet" href='https://d17ivq9b7rppb3.cloudfront.net/build/semicolon_style-5fc8919701.css'></noscript>
+    <link rel="stylesheet" href="./Knowledge Check - Pemrograman Berorientasi Objek_files/css" as="style" onload="this.rel=&#39;stylesheet&#39;">
+<noscript><link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Quicksand:400,500,700&display=swap'></noscript>
+    <link rel="stylesheet" href="./Knowledge Check - Pemrograman Berorientasi Objek_files/all.css" as="style" onload="this.rel=&#39;stylesheet&#39;">
+<noscript><link rel="stylesheet" href='https://use.fontawesome.com/releases/v5.6.3/css/all.css'></noscript>
+
+    <link rel="stylesheet" href="./Knowledge Check - Pemrograman Berorientasi Objek_files/froala_style.min.css" as="style" onload="this.rel=&#39;stylesheet&#39;">
+<noscript><link rel="stylesheet" href='/ui/froala290/css/froala_style.min.css'></noscript>    <link rel="stylesheet" href="./Knowledge Check - Pemrograman Berorientasi Objek_files/academy-tutorial-show_style-9b439ffb61.css" as="style" onload="this.rel=&#39;stylesheet&#39;">
+<noscript><link rel="stylesheet" href='https://d17ivq9b7rppb3.cloudfront.net/build/academy-tutorial-show_style-9b439ffb61.css'></noscript>
+<link rel="preconnect" href="https://fonts.gstatic.com/">
+<link href="./Knowledge Check - Pemrograman Berorientasi Objek_files/css2" rel="stylesheet">    <link rel="stylesheet" href="./Knowledge Check - Pemrograman Berorientasi Objek_files/v3-tutorial-show_style-aa43d3d905.css">
+    <style>
+        body {
+            visibility: hidden;
+            opacity: 0;
+        }
+    </style>
+    <noscript><style>.lazy {display: none;}</style></noscript>
+
+<style>
+    img.lazy[src^="data:image"]:not([src$=".svg"]) {
+      opacity: .5;
+      filter: blur(20px);
+    }
+    .position-relative {
+        position: relative;
+    }
+</style>
+    <link rel="stylesheet" href="./Knowledge Check - Pemrograman Berorientasi Objek_files/froala_editor.min.css" media="all"><link rel="stylesheet" href="./Knowledge Check - Pemrograman Berorientasi Objek_files/froala_style.min.css" media="all"><link rel="stylesheet" href="./Knowledge Check - Pemrograman Berorientasi Objek_files/image.min.css" media="all"><link rel="stylesheet" href="./Knowledge Check - Pemrograman Berorientasi Objek_files/select2.min.css" media="all"><link rel="stylesheet" href="./Knowledge Check - Pemrograman Berorientasi Objek_files/botui.min.css" media="all"><script src="./Knowledge Check - Pemrograman Berorientasi Objek_files/link.min.js.download" async=""></script><script src="./Knowledge Check - Pemrograman Berorientasi Objek_files/image.min.js.download" async=""></script><script src="./Knowledge Check - Pemrograman Berorientasi Objek_files/fuse.js@6.0.0" async=""></script><script src="./Knowledge Check - Pemrograman Berorientasi Objek_files/froala_editor.min.js.download" async=""></script><script src="./Knowledge Check - Pemrograman Berorientasi Objek_files/select2.min.js.download" async=""></script><script type="text/javascript" async="" src="./Knowledge Check - Pemrograman Berorientasi Objek_files/recaptcha__en.js.download" crossorigin="anonymous" integrity="sha384-o1nfdUm9cV7Sx6HxXDsnady1EGmCBTwza/JTA6OSowyOK+wq0YF0+F9jejHVacaR"></script><script async="" src="./Knowledge Check - Pemrograman Berorientasi Objek_files/fbevents.js.download"></script><script>
+    /*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
+    !function(a){"use strict";var b=function(b,c,d){function e(a){return h.body?a():void setTimeout(function(){e(a)})}function f(){i.addEventListener&&i.removeEventListener("load",f),i.media=d||"all"}var g,h=a.document,i=h.createElement("link");if(c)g=c;else{var j=(h.body||h.getElementsByTagName("head")[0]).childNodes;g=j[j.length-1]}var k=h.styleSheets;i.rel="stylesheet",i.href=b,i.media="only x",e(function(){g.parentNode.insertBefore(i,c?g:g.nextSibling)});var l=function(a){for(var b=i.href,c=k.length;c--;)if(k[c].href===b)return a();setTimeout(function(){l(a)})};return i.addEventListener&&i.addEventListener("load",f),i.onloadcssdefined=l,l(f),i};"undefined"!=typeof exports?exports.loadCSS=b:a.loadCSS=b}("undefined"!=typeof global?global:this);
+    /*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
+    !function(a){if(a.loadCSS){var b=loadCSS.relpreload={};if(b.support=function(){try{return a.document.createElement("link").relList.supports("preload")}catch(b){return!1}},b.poly=function(){for(var b=a.document.getElementsByTagName("link"),c=0;c<b.length;c++){var d=b[c];"preload"===d.rel&&"style"===d.getAttribute("as")&&(a.loadCSS(d.href,d,d.getAttribute("media")),d.rel=null)}},!b.support()){b.poly();var c=a.setInterval(b.poly,300);a.addEventListener&&a.addEventListener("load",function(){b.poly(),a.clearInterval(c)}),a.attachEvent&&a.attachEvent("onload",function(){a.clearInterval(c)})}}}(this);
+</script>    <script>
+        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+        ga('create', 'UA-39165363-3', 'auto');
+                    ga('set', 'userId', "1984572");
+                                        ga('set', 'location', 'https://www.dicoding.com/academies/86/tutorials/16415')
+        
+                ga('send', 'pageview');
+
+        
+        function imReady() {if (window.performance) {ga('send', 'timing', 'brand', 'load', Math.round(performance.now()))}}
+    </script>
+    <script async="" src="./Knowledge Check - Pemrograman Berorientasi Objek_files/analytics.js.download"></script>
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq){return}n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq){f._fbq=n}n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window,document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init','269427823946327');
+        fbq('track','PageView');
+    </script>
+
+    <noscript>
+        <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=269427823946327&ev=PageView&noscript=1"/>
+    </noscript>
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:2209120,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+
+                            window.hj('identify', 1984572, {
+                activate_new_classroom: true
+            });
+            </script><script async="" src="./Knowledge Check - Pemrograman Berorientasi Objek_files/hotjar-2209120.js.download"></script>
+    <script async="" src="./Knowledge Check - Pemrograman Berorientasi Objek_files/api.js.download"></script>
+    <script>window.recaptchaSiteKey = "6LcY-dEZAAAAAG7220cTok79TRAMHymu3zvCF0hV";</script>
+
+    
+        <noscript>
+        <style>
+            body {
+                visibility: visible;
+                opacity: 1;
+            }
+        </style>
+    </noscript>
+        <script async="" src="./Knowledge Check - Pemrograman Berorientasi Objek_files/modules.575e0da598e3619bac00.js.download" charset="utf-8"></script><style type="text/css">iframe#_hjRemoteVarsFrame {display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;}</style>
+            <style>
+                .zoomable-image-anchor:hover {
+                    cursor: zoom-in;
+                }
+
+                .image-zoom-modal .modal-dialog {
+                    width: 95%;
+                }
+                .image-zoom-modal .modal-body {
+                    text-align: center;
+                    padding: 10px;
+                    max-height: 90vh !important;
+                    overflow-y: auto;
+                }
+                
+                .image-zoom-modal .modal-body img {
+                    display: inline-block;
+                }
+                
+                .image-zoom-modal__close-btn {
+                    position: absolute;
+                    top: -50px;
+                    right: 0;
+                    color: #fff;
+                    font-size: 1.5rem !important;
+                }
+                
+                @media (min-width: 768px) {
+                    .image-zoom-modal .modal-dialog {
+                        max-width:85vw;
+                    }
+                    
+                    .image-zoom-modal .modal-body {
+                        padding: 15px;
+                    }
+                    
+                    .image-zoom-modal__close-btn {
+                        top: 0;
+                        right: -50px;
+                    }
+                }
+                
+                @media (min-width: 1600px) {
+                    .image-zoom-modal .modal-dialog {
+                        max-width:70vw;
+                    }
+                    
+                    .image-zoom-modal .modal-body {
+                        padding: 15px;
+                    }
+                }
+            </style>
+        <link rel="stylesheet" type="text/css" href="./Knowledge Check - Pemrograman Berorientasi Objek_files/prettify.css"><link href="./Knowledge Check - Pemrograman Berorientasi Objek_files/ea731dcb6f.css" media="all" rel="stylesheet"></head>
+<body class="spy light modal-open" style="visibility: visible; opacity: 1; overflow: unset; padding-right: 17px;">
+    
+        
+    
+    
+    
+    
+    <div class="content-wrapper without-header">
+                            
+    <!-- CLASSROOM TOP NAVIGATION & TOOLS -->
+        <div class="bg-white classroom-top-nav">
+        <a href="https://www.dicoding.com/academies/86/corridor" class="classroom-top-nav__title cta-to-corridor">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="">
+    <path d="M4.35982 11L10.3598 6L11.6402 7.53644L7.76205 10.7682H20V12.7682H7.76205L11.6402 16L10.3598 17.5364L4.35982 12.5364C4.13182 12.3464 4 12.065 4 11.7682C4 11.4714 4.13182 11.19 4.35982 11Z" fill="#3F3F46"></path>
+</svg>
+
+            <p class="d-none d-lg-block mb-0 ml-1 font-weight-bold">Memulai Pemrograman Dengan Python</p>
+        </a>
+
+        <section class="course-tools">
+            <div class="course-tools__icons" data-controller="toolsNavigationController">
+                <button id="module-search-icon" title="Pencarian" class="py-1 px-2 border-gray-200 dcd-rounded-64 btn-ghost" data-action="click-&gt;toolsNavigationController#onClickSearchIcon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="mx-0">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.5 2C5.80558 2 2 5.80558 2 10.5C2 15.1944 5.80558 19 10.5 19C15.1944 19 19 15.1944 19 10.5C19 5.80558 15.1944 2 10.5 2ZM4 10.5C4 6.91015 6.91015 4 10.5 4C14.0899 4 17 6.91015 17 10.5C17 14.0899 14.0899 17 10.5 17C6.91015 17 4 14.0899 4 10.5Z" fill="#71717A"></path>
+    <path d="M15.293 16.7072L20.293 21.7072L21.7072 20.293L16.7072 15.293L15.293 16.7072Z" fill="#71717A"></path>
+</svg>                    <span class="text-gray-400 text-xs mx-1" data-target="toolsNavigationController.searchIcon">Cari modul/konten</span>
+                    <kbd data-target="toolsNavigationController.searchShortcutLabel">CTRL /</kbd>
+                </button>
+
+                <button id="module-list-icon" class="px-0 py-1 btn-ghost" title="Daftar modul" data-action="click-&gt;toolsNavigationController#onClickModuleListIcon" data-target="toolsNavigationController.moduleListIcon">
+                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M4 9.5H16V7.5H4V9.5Z" fill="#71717A"></path>
+    <path d="M4 13.5H16V11.5H4V13.5Z" fill="#71717A"></path>
+    <path d="M4 17.5H16V15.5H4V17.5Z" fill="#71717A"></path>
+    <path d="M18 9.5H20V7.5H18V9.5Z" fill="#71717A"></path>
+    <path d="M18 13.5H20V11.5H18V13.5Z" fill="#71717A"></path>
+    <path d="M18 17.5H20V15.5H18V17.5Z" fill="#71717A"></path>
+</svg>
+                </button>
+                <button id="appearance-icon" class="px-0 py-1 btn-ghost" title="Aktivasi versi tampilan classroom">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M4 3C3.44772 3 3 3.44772 3 4V9C3 9.55228 3.44772 10 4 10H20C20.5523 10 21 9.55228 21 9V4C21 3.44772 20.5523 3 20 3H4ZM5 8V5H19V8H5Z" fill="#71717A"></path>
+    <path d="M12 13.5C12.5523 13.5 13 13.9477 13 14.5V17H14V22H10V17H11V15.5H5C4.44772 15.5 4 15.0523 4 14.5V12H6V13.5H12Z" fill="#71717A"></path>
+    <path d="M19.5 12L18.0007 13.4993C17.3931 13.9553 17 14.6818 17 15.5C17 16.8807 18.1193 18 19.5 18C20.8807 18 22 16.8807 22 15.5C22 14.6818 21.6069 13.9553 20.9993 13.4993L19.5 12Z" fill="#71717A"></path>
+</svg>
+                </button>
+                <button id="setting-icon" class="px-0 py-1 btn-ghost" title="Pengaturan">
+                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.0307 2.5H8.96912L8.23407 5.44021C8.07591 5.52473 7.92095 5.61439 7.76941 5.70897L4.855 4.87527L1.82422 10.1247L4.00429 12.2327C4.00137 12.3215 3.9999 12.4106 3.9999 12.5C3.9999 12.5894 4.00137 12.6785 4.00429 12.7673L1.82422 14.8753L4.855 20.1247L7.76941 19.291C7.92095 19.3856 8.07591 19.4753 8.23407 19.5598L8.96912 22.5H15.0307L15.7657 19.5598C15.9239 19.4753 16.0788 19.3856 16.2304 19.291L19.1447 20.1247L22.1755 14.8753L19.9955 12.7674C19.9984 12.6786 19.9999 12.5895 19.9999 12.5C19.9999 12.4105 19.9984 12.3214 19.9955 12.2326L22.1755 10.1247L19.1447 4.87527L16.2304 5.70896C16.0788 5.61439 15.9239 5.52473 15.7657 5.44021L15.0307 2.5ZM10.5307 4.5H13.4691L14.0541 6.83993L14.4917 7.04002C14.8401 7.19932 15.1708 7.39113 15.48 7.61167L15.8723 7.89159L18.1935 7.22762L19.6627 9.77239L17.9279 11.4497L17.9731 11.9283C17.9908 12.1162 17.9999 12.3069 17.9999 12.5C17.9999 12.6931 17.9908 12.8838 17.9731 13.0717L17.9279 13.5503L19.6627 15.2276L18.1935 17.7724L15.8723 17.1084L15.48 17.3883C15.1708 17.6089 14.8401 17.8007 14.4917 17.96L14.0541 18.1601L13.4691 20.5H10.5307L9.94569 18.1601L9.50809 17.96C9.15969 17.8007 8.82897 17.6089 8.51982 17.3883L8.12744 17.1084L5.80627 17.7724L4.33705 15.2276L6.07184 13.5502L6.02671 13.0716C6.00899 12.8837 5.9999 12.6931 5.9999 12.5C5.9999 12.3069 6.00899 12.1163 6.02671 11.9284L6.07184 11.4498L4.33705 9.77238L5.80627 7.22761L8.12744 7.89161L8.51982 7.61168C8.82897 7.39113 9.15969 7.19932 9.50809 7.04002L9.94569 6.83993L10.5307 4.5Z" fill="#71717A"></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 8.5C9.79086 8.5 8 10.2909 8 12.5C8 14.7091 9.79086 16.5 12 16.5C14.2091 16.5 16 14.7091 16 12.5C16 10.2909 14.2091 8.5 12 8.5ZM10 12.5C10 11.3954 10.8954 10.5 12 10.5C13.1046 10.5 14 11.3954 14 12.5C14 13.6046 13.1046 14.5 12 14.5C10.8954 14.5 10 13.6046 10 12.5Z" fill="#71717A"></path>
+</svg>
+                </button>
+            </div>
+        </section>
+    </div>
+    
+    <!-- CONTENT -->
+    <div class="container-fluid">
+        <div class="container academy-tutorial-content__classroom-container my-5 py-5">
+                        <div data-zoomable-image-content="">
+                
+    
+    
+            <div class="mb-5 fr-view academy-tutorial-content content--prettify-light">
+        <p class="text-gray-700 font-weight-bold pb-2 text-xl">Aturan</p>
+        <p>Ini adalah knowledge check untuk menguji pengetahuan Anda tentang materi yang telah dipelajari di modul Pemrograman Berorientasi Objek. Terdapat 2 pertanyaan yang harus dikerjakan dalam checkpoint ini. Beberapa ketentuan yang harus diperhatikan sebagai berikut:</p><ul><li>Syarat nilai kelulusan : 100%</li><li>Durasi ujian : 5 menit</li></ul><p>Apabila tidak memenuhi syarat kelulusan, maka Anda harus menunggu selama 1 menit untuk mengulang pengerjaan ujian kembali. Manfaatkan waktu tunggu tersebut untuk mempelajari kembali materi sebelumnya, ya.</p><p>Selamat Mengerjakan!</p>
+    </div>
+
+    <div class="my-5">
+                    <div class="dcd-alert dcd-alert-info mb-2" id="info-start-exam" style="display: none">
+                Anda wajib menggunakan komputer dan mengaktifkan webcam maupun microphone untuk mengikuti tes ini.
+            </div>
+            <div class="d-flex flex-row-reverse">
+                <button type="submit" class="dcd-btn dcd-btn-primary" data-toggle="modal" data-target="#modal-confirm" id="button-start-exam" style="display: block;">
+                    Mulai
+                </button>
+            </div>
+            </div>
+
+            <div class="mb-5 academy-tutorial-content exam-result-history">
+            <p class="text-gray-700 font-weight-bold pb-2 text-xl">Riwayat</p>
+            <div class="table-responsive-sm mb-5">
+                <table class="table table-hover table-striped table-responsive--collapse">
+                    <thead class="text-gray-500">
+                    <tr>
+                        <th>Tanggal</th>
+                        <th>Persentase</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                    </thead>
+                    <tbody class="text-gray-600">
+                                            <tr>
+                            <td data-th="Tanggal">19 Feb 2022 15:18</td>
+                            <td data-th="Persentase">100%</td>
+                            <td data-th="Status">
+                                                                    <span class="dcd-badge dcd-badge-sm dcd-badge-success">Lulus</span>
+                                                            </td>
+                            <td data-th="Action">
+                                <button class="dcd-btn dcd-btn-secondary px-3" id="button-view-exam-result-9844688" data-toggle="modal-tertiary" data-tertiary-action="ExamResultReview" data-target="#modal-exam-result" data-tertiary-payload="{&quot;exam_registration_id&quot;:9844688,&quot;examinees_id&quot;:1984572}">
+                                    Lihat Detail
+                                </button>
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td data-th="Tanggal">19 Feb 2022 15:12</td>
+                            <td data-th="Persentase">50%</td>
+                            <td data-th="Status">
+                                                                    <span class="dcd-badge dcd-badge-sm dcd-badge-danger">Tidak Lulus</span>
+                                                            </td>
+                            <td data-th="Action">
+                                <button class="dcd-btn dcd-btn-secondary px-3" id="button-view-exam-result-9844543" data-toggle="modal-tertiary" data-tertiary-action="ExamResultReview" data-target="#modal-exam-result" data-tertiary-payload="{&quot;exam_registration_id&quot;:9844543,&quot;examinees_id&quot;:1984572}">
+                                    Lihat Detail
+                                </button>
+                            </td>
+                        </tr>
+                                        </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="modal modal-fullscreen fade full-screen p-0 m-0 show" id="modal-exam-result" tabindex="-1" role="dialog" aria-labelledby="modal-exam-result" style="padding-right: 17px; display: block;" aria-modal="true">
+    <div class="modal-dialog modal-dialog-centered text-gray-700 font-weight-500 modal-lg">
+        <div class="modal-content">
+            <div class="modal-header d-flex flex-row flex-content-between border-bottom px-4">
+                <p class="modal-title font-weight-600 text-gray-700 text-lg p-2">
+                    Hasil Exam
+                </p>
+                <button type="button" id="close-exam-result" class="close dcd-btn btn-ghost p-4" data-dismiss="modal" aria-label="Close">
+                    <svg width="14" height="14" class="" viewBox="0 0 14 14" fill="#3F3F46" xmlns="http://www.w3.org/2000/svg">
+    <path d="M13 1L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M1 1L13 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>                </button>
+            </div>
+            <div class="modal-body align-items-center mt-4 mb-0 academy-tutorial-content"><div class="container-fluid row d-flex justify-content-between m-0">
+    <div class="col-lg-3 exam-result__brief-info px-2">
+        <p class="text-md mx-2 my-3">
+            <span class="font-weight-bold text-gray-500">Tanggal Ujian : </span>
+            <span class="text-gray-700 font-weight-400">19 Feb 2022 pukul 15:18:17</span>
+        </p>
+
+        <div class="py-4 px-3 d-flex flex-row justify-content-around">
+            <div class="d-flex flex-column text-center">
+                <p class="font-weight-600 text-gray-500">Total soal</p>
+                <p class="exam-result__brief-info--number text-gray-500">
+                    2
+                </p>
+            </div>
+            <div class="divider"></div>
+            <div class="d-flex flex-column text-center">
+                <p class="font-weight-600 text-gray-500">Jawaban benar</p>
+                <p class="exam-result__brief-info--number text-gray-500">
+                    2
+                </p>
+            </div>
+        </div>
+
+        <div class="py-4 px-3 mb-4 text-center border-gray-200 dcd-rounded-4 exam-result__brief-info--score-container">
+            <p class="font-weight-600 text-green-500">Score</p>
+            <p class="exam-result__brief-info--number text-green-500">
+                100
+            </p>
+        </div>
+
+                    <div class="px-4">
+                <p>Nilai Anda di kategori-kategori berikut masih perlu ditingkatkan, silakan pelajari ulang materi Knowledge Check - Pemrograman Berorientasi Objek.</p>
+            </div>
+            </div>
+    <div class="col-lg-7 exam-result__review-answers">
+        <div class="my-5">
+                            <div class="pb-2 content--prettify-light">
+                    <p class="font-weight-600 text-gray-600 mb-0 text-md"> Kategori : Knowledge Check - Pemrograman Berorientasi Objek </p>
+                    <div class="fr-view font-weight-bold text-gray-700 dcd-multiple-choice__question pb-3">
+                        <p>Terdapat sebuah class Kalkulator seperti berikut:</p><pre>class Kalkulator:
+&nbsp;
+&nbsp; &nbsp; def __init__(self, nilai=0):
+&nbsp; &nbsp; &nbsp; &nbsp; self.nilai = nilai
+&nbsp;
+&nbsp; &nbsp; def tambah_angka(self, angka1, angka2):
+&nbsp; &nbsp; &nbsp; &nbsp; self.nilai = angka1 + angka2
+&nbsp; &nbsp; &nbsp; &nbsp; if self.nilai &gt; 9: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; print('kalkulator sederhana melebihi batas angka: {}'.format(self.nilai))
+&nbsp; &nbsp; &nbsp; &nbsp; return self.nilai</pre><p>Kemudian kita ingin membuat sebuah class yang memiliki fitur pengurangan dengan mewarisi atribut dan metode dari class Kalkulator tanpa mengubah class Kalkulator itu sendiri, apakah kode di bawah ini sudah sesuai dengan kondisi yang diinginkan di atas?</p><pre>class KalkulatorKurang:
+&nbsp;
+&nbsp; &nbsp; def kali_angka(self, angka1, angka2):
+&nbsp; &nbsp; &nbsp; &nbsp; self.nilai = angka2 - angka1
+&nbsp; &nbsp; &nbsp; &nbsp; return self.nilai</pre>
+                    </div>
+                                                                                            <div class="mb-2 dcd-multiple-choice__answer">
+                                <label class="dcd-badge dcd-badge-neutral bg-white dcd-multiple-choice__answer--label">
+                                    <span class="text-md px-1">
+                                        A
+                                    </span>
+                                </label>
+                                <span class="ml-3 fr-view dcd-multiple-choice__answer--text text-md">
+                                    <p>Benar (Sudah menerapkan inheritance)</p>
+                                </span>
+                            </div>
+                                                                                                <div class="mb-2 dcd-multiple-choice__answer">
+                                <label class="dcd-badge  dcd-badge-success  dcd-multiple-choice__answer--label">
+                                    <span class="text-md px-1">
+                                        B
+                                    </span>
+                                </label>
+                                <span class="ml-3 fr-view dcd-multiple-choice__answer--text text-md">
+                                    <p>Salah (Belum menerapkan inheritance)</p>
+                                </span>
+                            </div>
+                                                                                        <div class="my-3 py-2 px-3 dcd-alert dcd-alert-neutral">
+                            <div class="d-flex">
+                                                                    <svg class="my-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="16" width="16">
+    <path fill="currentColor" d="M13.56 6.56a1.5 1.5 0 0 0-2.12-2.12L6.5 9.378l-1.94-1.94a1.5 1.5 0 1 0-2.12 2.122l3 3a1.5 1.5 0 0 0 2.12 0l6-6Z"></path>
+</svg>
+                                                                <div class="font-weight-600 text-md mb-0 mx-2 text-green-500">
+                                    <span>Benar</span>
+                                </div>
+                            </div>
+                        </div>
+                                    </div>
+                            <div class="pb-2 content--prettify-light">
+                    <p class="font-weight-600 text-gray-600 mb-0 text-md"> Kategori : Knowledge Check - Pemrograman Berorientasi Objek </p>
+                    <div class="fr-view font-weight-bold text-gray-700 dcd-multiple-choice__question pb-3">
+                        <p>Pada Python terdapat sebuah konvensi penggunaan nama yang diawali dengan garis bawah (underscore), baik itu fungsi, metode, maupun anggota data, akan dianggap sebagai publik.</p><p>Apakah penjelasan tersebut sudah benar?</p>
+                    </div>
+                                                                                            <div class="mb-2 dcd-multiple-choice__answer">
+                                <label class="dcd-badge dcd-badge-neutral bg-white dcd-multiple-choice__answer--label">
+                                    <span class="text-md px-1">
+                                        A
+                                    </span>
+                                </label>
+                                <span class="ml-3 fr-view dcd-multiple-choice__answer--text text-md">
+                                    <p>Benar</p>
+                                </span>
+                            </div>
+                                                                                                <div class="mb-2 dcd-multiple-choice__answer">
+                                <label class="dcd-badge  dcd-badge-success  dcd-multiple-choice__answer--label">
+                                    <span class="text-md px-1">
+                                        B
+                                    </span>
+                                </label>
+                                <span class="ml-3 fr-view dcd-multiple-choice__answer--text text-md">
+                                    <p>Salah</p>
+                                </span>
+                            </div>
+                                                                                        <div class="my-3 py-2 px-3 dcd-alert dcd-alert-neutral">
+                            <div class="d-flex">
+                                                                    <svg class="my-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="16" width="16">
+    <path fill="currentColor" d="M13.56 6.56a1.5 1.5 0 0 0-2.12-2.12L6.5 9.378l-1.94-1.94a1.5 1.5 0 1 0-2.12 2.122l3 3a1.5 1.5 0 0 0 2.12 0l6-6Z"></path>
+</svg>
+                                                                <div class="font-weight-600 text-md mb-0 mx-2 text-green-500">
+                                    <span>Benar</span>
+                                </div>
+                            </div>
+                        </div>
+                                    </div>
+                    </div>
+    </div>
+</div></div>
+        </div>
+    </div>
+</div>
+    
+<div class="modal fade" id="modal-confirm" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-zoom" role="document">
+        <div class="modal-content">
+            <div class="modal-header border-0">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <p>Apakah Anda yakin ingin mengambil ujian ini?</p>
+                                    <p>Jika Anda mengambil ujian ini, maka Anda baru dapat mengambilnya lagi
+                        <b>1 menit</b> setelah ujian berakhir.</p>
+                            </div>
+            <div class="modal-footer">
+                <button type="button" class="dcd-btn dcd-btn-secondary" data-dismiss="modal">Batal</button>
+                <form method="POST" action="https://www.dicoding.com/academies/86/tutorials/16415/examregistration" accept-charset="UTF-8" role="form"><input name="_token" type="hidden" value="cM3je8JZkEuCA1WblDCjOVyOnTaAwLZ3fcAowGhs">
+                <button type="submit" class="dcd-btn dcd-btn-primary">Lanjut</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+        <div class="help-overlay d-flex flex-column align-items-center justify-content-start" id="help-overlay">
+    <button class="item btn-ghost" data-toggle="modal" data-target="#module-report-modal">
+        <div class="icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M4 22L4 3H2V22H4Z" fill="#71717A"></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M3 2C2.44772 2 2 2.44772 2 3V15C2 15.5523 2.44772 16 3 16H12.5L13.7 17.6C13.8889 17.8518 14.1852 18 14.5 18H21C21.5523 18 22 17.5523 22 17V6C22 5.44772 21.5523 5 21 5H15.118L13.8944 2.55279C13.725 2.214 13.3788 2 13 2H3ZM13.8 14.4C13.6111 14.1482 13.3148 14 13 14H4V4H12.382L13.6056 6.44721C13.775 6.786 14.1212 7 14.5 7H20V16H15L13.8 14.4Z" fill="#71717A"></path>
+</svg>        </div>
+        <div class="title font-weight-600">
+            Laporkan Materi
+        </div>
+    </button>
+
+    <button class="item btn-ghost" id="keyboard-shortcut-btn-open">
+        <div class="icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M3 6H6V9H3V6Z" fill="#71717A"></path>
+    <path d="M3 11H6V14H3V11Z" fill="#71717A"></path>
+    <path d="M11 6H8V9H11V6Z" fill="#71717A"></path>
+    <path d="M8 11H11V14H8V11Z" fill="#71717A"></path>
+    <path d="M21 16H3V19H21V16Z" fill="#71717A"></path>
+    <path d="M13 6H16V9H13V6Z" fill="#71717A"></path>
+    <path d="M16 11H13V14H16V11Z" fill="#71717A"></path>
+    <path d="M18 6H21V9H18V6Z" fill="#71717A"></path>
+    <path d="M21 11H18V14H21V11Z" fill="#71717A"></path>
+</svg>
+        </div>
+        <div class="title font-weight-600">
+            Keyboard Shortcut
+        </div>
+    </button>
+</div>
+
+<div class="modal fade report-tutorial-modal" id="module-report-modal" data-controller="module-report-controller" tabindex="-1" role="dialog" aria-labelledby="module-report-modal-title" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <form method="POST" action="https://www.dicoding.com/academies/86/tutorials/16415/report" accept-charset="UTF-8" role="form" id="form-create-report" class="m-0"><input name="_token" type="hidden" value="cM3je8JZkEuCA1WblDCjOVyOnTaAwLZ3fcAowGhs">
+                <div class="modal-header p-3">
+                    <h6 class="modal-title" id="module-report-modal-title">Laporkan Materi</h6>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="form-group mb-0">
+                        <div class="btn-group btn-group-toggle tutorial-report-group-toggle" data-toggle="buttons" id="module-report-type">
+                            <label for="type" class="btn tutorial-report-group-toggle__btn tutorial-report-technical-problem active" data-target="module-report-controller.label" data-action="click-&gt;module-report-controller#onClickLabel">
+                                <input data-toggle-info="technical_problem" type="radio" name="type" value="technical_problem" checked=""> Masalah Teknis
+                            </label>
+                            <label for="type" class="btn tutorial-report-group-toggle__btn tutorial-report-content-improve" data-target="module-report-controller.label" data-action="click-&gt;module-report-controller#onClickLabel">
+                                <input data-toggle-info="content_improvement" type="radio" name="type" value="content_improvement"> Perbaikan Konten
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group" id="module-report-text-field">
+                        <label for="module-report-description"></label>
+                        <div class="fr-box fr-basic fr-top" role="application"><div class="fr-toolbar fr-desktop fr-top fr-basic"><button id="bold-1" type="button" tabindex="-1" role="button" aria-pressed="false" title="Bold (Ctrl+B)" class="fr-command fr-btn fr-btn-font_awesome_5" data-cmd="bold"><i class="fas fa-bold" aria-hidden="true"></i><span class="fr-sr-only">Bold</span></button><button id="italic-1" type="button" tabindex="-1" role="button" aria-pressed="false" title="Italic (Ctrl+I)" class="fr-command fr-btn fr-btn-font_awesome_5" data-cmd="italic"><i class="fas fa-italic" aria-hidden="true"></i><span class="fr-sr-only">Italic</span></button><button id="underline-1" type="button" tabindex="-1" role="button" aria-pressed="false" title="Underline (Ctrl+U)" class="fr-command fr-btn fr-btn-font_awesome_5" data-cmd="underline"><i class="fas fa-underline" aria-hidden="true"></i><span class="fr-sr-only">Underline</span></button><div class="fr-separator fr-vs" role="separator" aria-orientation="vertical"></div><button id="insertLink-1" type="button" tabindex="-1" role="button" title="Insert Link (Ctrl+K)" class="fr-command fr-btn fr-btn-font_awesome_5" data-cmd="insertLink" data-popup="true"><i class="fas fa-link" aria-hidden="true"></i><span class="fr-sr-only">Insert Link</span></button><button id="insertImage-1" type="button" tabindex="-1" role="button" title="Insert Image (Ctrl+P)" class="fr-command fr-btn fr-btn-font_awesome_5" data-cmd="insertImage" data-popup="true"><i class="fas fa-image" aria-hidden="true"></i><span class="fr-sr-only">Insert Image</span></button><button id="insertCodeBlock-1" type="button" tabindex="-1" role="button" title="Insert code block" class="fr-command fr-btn fr-btn-font_awesome_5" data-cmd="insertCodeBlock"><i class="fas fa-code" aria-hidden="true"></i><span class="fr-sr-only">Insert code block</span></button></div><div class="fr-wrapper show-placeholder" dir="auto" style="max-height: 400px; overflow: auto;"><div class="fr-element fr-view" dir="auto" contenteditable="true" aria-disabled="false" spellcheck="true"><p><br></p></div><span class="fr-placeholder" style="font-size: 16px; line-height: 24px; margin-top: 0px; padding-top: 16px; padding-left: 16px; margin-left: 0px; padding-right: 16px; margin-right: 0px; text-align: left;">- Pada bagian code snippet yang menunjukkan response dari XHR request perlu diperbaiki.<br>                        - Contoh kode tidak bisa dijalankan karena sudah deprecated.<br>                        - Video pada modul ini tidak bisa diputar.<br>                    </span></div></div><textarea name="description" class="form-control" id="module-report-description" data-rich-editor="" data-image-type="academy" data-target="module-report-controller.textAreaField" data-placeholder="- Pada bagian code snippet yang menunjukkan response dari XHR request perlu diperbaiki.
+                        - Contoh kode tidak bisa dijalankan karena sudah deprecated.
+                        - Video pada modul ini tidak bisa diputar.
+                    " rows="4" cols="4" style="display: none;"></textarea>
+                    </div>
+
+                    <template id="technical_problem__hints" data-target="module-report-controller.hintTemplate"></template>
+
+                    <template id="content_improvement__hints" data-target="module-report-controller.hintTemplate"></template>
+
+                    <div class="text-right mt-4">
+                        <button type="submit" class="dcd-btn dcd-btn-primary">Kirim Laporan</button>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="tools-overlay">
+    <div class="action d-flex justify-content-between align-items-center">
+        <div class="mr-2" data-controller="dibantu" data-dibantu-bot-avatar="https://dicoding-web-img.sgp1.cdn.digitaloceanspaces.com/original/commons/dibantu-pp.png" data-dibantu-user-avatar="https://d17ivq9b7rppb3.cloudfront.net/small/avatar/pp.jpg" data-dibantu-discussions-url="https://www.dicoding.com/academies/86/discussions?tutorial=16415" data-dibantu-new-discussion-url="https://www.dicoding.com/academies/86/discussions/create?tutorial_id=16415" data-dibantu-bot-feedback-url="https://www.dicoding.com/academies/86/tutorials/16415/sendDiscussionBotFeedback">
+            <button title="Dibantu" class="tools-button tools-button--discussion btn-ghost" data-action="click-&gt;dibantu#toggleChatWindow">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M7 2C6.44772 2 6 2.44772 6 3V4C6 4.55228 6.44772 5 7 5C7.55228 5 8 4.55228 8 4H20V12C19.4477 12 19 12.4477 19 13C19 13.5523 19.4477 14 20 14H21C21.5523 14 22 13.5523 22 13V3C22 2.44772 21.5523 2 21 2H7Z" fill="#71717A"></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M3 7C2.44772 7 2 7.44772 2 8V21C2 21.3603 2.19379 21.6927 2.5073 21.8702C2.82081 22.0477 3.20557 22.0429 3.5145 21.8575L8.27698 19H16C16.5523 19 17 18.5523 17 18V8C17 7.44772 16.5523 7 16 7H3ZM4 9H15V17H8C7.81876 17 7.64092 17.0493 7.4855 17.1425L4 19.2338V9Z" fill="#71717A"></path>
+    <path d="M8 13C8 13.5523 7.55228 14 7 14C6.44772 14 6 13.5523 6 13C6 12.4477 6.44772 12 7 12C7.55228 12 8 12.4477 8 13Z" fill="#71717A"></path>
+    <path d="M13 13C13 13.5523 12.5523 14 12 14C11.4477 14 11 13.5523 11 13C11 12.4477 11.4477 12 12 12C12.5523 12 13 12.4477 13 13Z" fill="#71717A"></path>
+</svg>            </button>
+
+            <div class="dibantu d-none" data-secondary-data="1" data-secondary-senddata="1" data-secondary-type="tutorialDiscussions" data-send="86:16415" data-target="dibantu.chatWindow">
+    <div class="dibantu__header">
+        <span>Dibantu</span>
+        <button type="button" class="close" aria-label="Close" data-action="click-&gt;dibantu#toggleChatWindow">
+            <svg width="16" height="16" class="" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <path d="M3.13807 4.86128C2.87772 4.60093 2.45561 4.60093 2.19526 4.86128C1.93491 5.12163 1.93491 5.54374 2.19526 5.80409L7.5286 11.1374C7.78895 11.3978 8.21106 11.3978 8.47141 11.1374L13.8047 5.80409C14.0651 5.54374 14.0651 5.12163 13.8047 4.86128C13.5444 4.60093 13.1223 4.60093 12.8619 4.86128L8 9.72321L3.13807 4.86128Z"></path>
+</svg>        </button>
+    </div>
+
+    <div id="dibantu__body">
+        <div class="dibantu__intro" data-target="dibantu.introContainer">
+            <img src="./Knowledge Check - Pemrograman Berorientasi Objek_files/dibantu-welcome.png" alt="Dibantu" width="154" height="120" class="mb-4">
+
+            <p class="mb-4">
+                <strong>Halo, selamat datang :)</strong><br>
+                Kenalin aku Dibantu, bot yang akan membantu kamu mengatasi permasalahan di modul ini.
+            </p>
+
+            <div class="dibantu__btn-group mx-auto">
+                <button class="dcd-btn dcd-btn-secondary dcd-btn-sm btn-block" data-action="click-&gt;dibantu#startBot">Tanya Dibantu</button>
+                <a href="https://www.dicoding.com/academies/86/discussions?tutorial=16415" class="dcd-btn dcd-btn-secondary dcd-btn-sm btn-block" target="_blank">Lihat forum diskusi</a>
+            </div>
+        </div>
+
+        <div id="dibantu-bot-ui" data-target="dibantu.botContainer" class="dibantu__bot-container"><div class="botui botui-container"><div class="botui-messages-container"></div><div class="botui-actions-container"><!----></div></div></div>
+    </div>
+</div>
+        </div>
+
+        <button class="mr-2 tools-button tools-button--help btn-ghost" id="help-btn" title="Bantuan">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M12.7955 12.8284C12.9861 12.761 13.1702 12.6743 13.3447 12.5691C13.8123 12.2871 14.194 11.883 14.4489 11.4001C14.7036 10.9171 14.8218 10.3739 14.7906 9.82876C14.7595 9.28372 14.5801 8.75735 14.272 8.30667C13.9637 7.85598 13.5385 7.49795 13.0417 7.27114C12.5452 7.04434 11.996 6.9573 11.4536 7.01956C10.9111 7.08181 10.396 7.29092 9.96362 7.62429C9.53125 7.95767 9.198 8.40274 9 8.91153L10.8619 9.6365C10.9281 9.46658 11.0393 9.31802 11.1837 9.20669C11.3281 9.09524 11.5002 9.02542 11.6813 9.00467C11.8624 8.98391 12.0459 9.01297 12.2118 9.08865C12.3776 9.16446 12.5197 9.28396 12.6226 9.43447C12.7255 9.58499 12.7854 9.76077 12.7958 9.94278C12.8062 10.1249 12.7667 10.3063 12.6816 10.4676C12.5966 10.6288 12.469 10.7638 12.3129 10.8579C12.2322 10.9066 12.1454 10.9434 12.0553 10.9676C11.9904 10.985 11.9236 10.996 11.8561 11H11.7955C11.2433 11 10.7955 11.4478 10.7955 12V14H12.7955V12.8284Z" fill="#71717A"></path>
+    <path d="M10.7954 15H12.7954V17H10.7954V15Z" fill="#71717A"></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12ZM12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4Z" fill="#71717A"></path>
+</svg>
+        </button>
+
+        <button class="tools-button tools-button__onboarding btn-ghost" title="Pengenalan classroom">
+            <svg width="24" height="24" class="" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2ZM4 12C4 7.58172 7.58172 4 12 4C16.4183 4 20 7.58172 20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12Z" fill="currentColor"></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 7C9.23858 7 7 9.23858 7 12C7 14.7614 9.23858 17 12 17C14.7614 17 17 14.7614 17 12C17 9.23858 14.7614 7 12 7ZM9 12C9 10.3431 10.3431 9 12 9C13.6569 9 15 10.3431 15 12C15 13.6569 13.6569 15 12 15C10.3431 15 9 13.6569 9 12Z" fill="currentColor"></path>
+    <path d="M19.0711 17.6568L15.7071 14.2929L14.2929 15.7071L17.6569 19.071L19.0711 17.6568Z" fill="currentColor"></path>
+    <path d="M9.70708 8.2928L6.34317 4.92889L4.92896 6.34311L8.29286 9.70702L9.70708 8.2928Z" fill="currentColor"></path>
+    <path d="M17.6569 4.92891L14.2929 8.29292L15.7071 9.70714L19.0711 6.34312L17.6569 4.92891Z" fill="currentColor"></path>
+    <path d="M8.29286 14.2929L4.92896 17.6568L6.34317 19.071L9.70708 15.7071L8.29286 14.2929Z" fill="currentColor"></path>
+</svg>
+        </button>
+    </div>
+</div>
+        
+            <section>
+        <div class="overlay-box">
+    <div class="module-search-container" id="module-search-container" data-controller="newModuleSearch">
+        <div class="js-module-search">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="js-module-search__icon">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.5 2C5.80558 2 2 5.80558 2 10.5C2 15.1944 5.80558 19 10.5 19C15.1944 19 19 15.1944 19 10.5C19 5.80558 15.1944 2 10.5 2ZM4 10.5C4 6.91015 6.91015 4 10.5 4C14.0899 4 17 6.91015 17 10.5C17 14.0899 14.0899 17 10.5 17C6.91015 17 4 14.0899 4 10.5Z" fill="#71717A"></path>
+    <path d="M15.293 16.7072L20.293 21.7072L21.7072 20.293L16.7072 15.293L15.293 16.7072Z" fill="#71717A"></path>
+</svg>            <input class="form-control classroom js-module-search__field" type="text" placeholder="Cari" aria-label="Cari Modul" data-target="newModuleSearch.query" data-action="blur-&gt;newModuleSearch#onQueryBlur keyup-&gt;newModuleSearch#search">
+            <button class="dcd-btn dcd-btn-sm dcd-btn-outline-secondary js-module-search__button" id="module-search__esc-button">esc</button>
+        </div>
+
+        <div data-target="newModuleSearch.result" class="module-search__result mx-3 border-top"></div>
+        <div class="list-group list-group-flush" data-target="newModuleSearch.allModules">
+        </div>
+    </div>
+</div>        <div id="note" class="note">
+    <div class="note__header">
+        <p class="mb-0">Catatan Belajar</p>
+        <div id="note-btn-close">
+            <svg width="14" height="14" class="" viewBox="0 0 14 14" fill="#3F3F46" xmlns="http://www.w3.org/2000/svg">
+    <path d="M13 1L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M1 1L13 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>        </div>
+    </div>
+
+    <div class="note__content">
+        ini konten buat note nanti
+    </div>
+</div>
+        <div class="overlay-box">
+    <div class="keyboard-shortcut-overlay" id="keyboard-shortcut-overlay">
+        <div class="keyboard-shortcut-overlay__header container px-lg-0 pt-lg-5 pt-4">
+            <h5 class="font-weight-bold mb-0 mt-2">Keyboard Shortcut</h5>
+            <button class="dcd-btn btn-ghost keyboard-shortcut-btn-close" id="keyboard-shortcut-btn-close">
+                <svg width="14" height="14" class="" viewBox="0 0 14 14" fill="#3F3F46" xmlns="http://www.w3.org/2000/svg">
+    <path d="M13 1L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M1 1L13 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>            </button>
+        </div>
+
+        <div class="container keyboard-shortcut-overlay__content px-lg-0 px-3 my-1 py-1">
+            <div class="shortcut-list">
+                <div class="item">
+                    <div class="indicator font-weight-bold">
+                        1
+                    </div>
+
+                    <div class="title font-weight-bold">
+                        Next/prev modul
+                    </div>
+
+                    <div class="description">
+                        <p>Membantu untuk mempermudah navigasi antar modul.</p>
+
+                        <div class="hint">
+                            <div class="kind font-weight-bold">
+                                Tekan
+                            </div>
+
+                            <div class="keys font-weight-medium text-sm">
+                                <kbd data-meta-key-modifier="">CTRL</kbd>
+                                <kbd>←</kbd>
+                                <span class="mx-1">/</span>
+                                <kbd data-meta-key-modifier="">CTRL</kbd>
+                                <kbd>→</kbd>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="indicator font-weight-bold">
+                        2
+                    </div>
+
+                    <div class="title font-weight-bold">
+                        Mencari Konten
+                    </div>
+
+                    <div class="description">
+                        <p>Membantu menemukan konten dengan lebih cepat.</p>
+
+                        <div class="hint">
+                            <div class="kind font-weight-bold">
+                                Tekan
+                            </div>
+
+                            <div class="keys font-weight-medium text-sm">
+                                <kbd data-meta-key-modifier="" class="mr-1">CTRL</kbd><kbd>/</kbd>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="indicator font-weight-bold">
+                        3
+                    </div>
+
+                    <div class="title font-weight-bold">
+                        Melihat daftar modul
+                    </div>
+
+                    <div class="description">
+                        <p>Membantu melihat modul lebih cepat.</p>
+
+                        <div class="hint">
+                            <div class="kind font-weight-bold">
+                                Tekan
+                            </div>
+
+                            <div class="keys font-weight-medium text-sm">
+                                <kbd data-meta-key-modifier="" class="mr-1">CTRL</kbd><kbd>M</kbd>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>        <div class="setting" id="setting-overlay">
+    <div class="setting__header d-flex flex-row justify-content-between align-items-center">
+        <h5 class="font-weight-bold mb-0 mt-2">Pengaturan</h5>
+        <button class="dcd-btn btn-ghost" id="setting-btn-close">
+            <svg width="14" height="14" class="" viewBox="0 0 14 14" fill="#3F3F46" xmlns="http://www.w3.org/2000/svg">
+    <path d="M13 1L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M1 1L13 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>        </button>
+    </div>
+
+    <div class="setting__content">
+
+        <div class="item" id="light-mode-button" data-theme-active="true">
+            <p class="text-gray-700">Belajar programming dengan terstruktur.</p>
+
+        </div>
+        <div class="title">Light</div>
+
+    </div>
+
+    <div class="setting__content">
+
+        <div class="item gray" id="warm-mode-button">
+            <p class="text-gray-700">Belajar programming dengan terstruktur.</p>
+
+        </div>
+        <div class="title">Warm</div>
+
+    </div>
+
+    <div class="setting__content">
+
+        <div class="item dark" id="dark-mode-button">
+            <p class="text-gray-700">Belajar programming dengan terstruktur.</p>
+
+        </div>
+        <div class="title">Dark</div>
+
+    </div>
+</div>        <div class="feature-activation">
+    <div class="px-2 py-3 text-center">
+
+    <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-bottom: 16px;">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.6667 8C9.19391 8 8 9.19391 8 10.6667V24C8 25.4728 9.19391 26.6667 10.6667 26.6667H53.3333C54.8061 26.6667 56 25.4728 56 24V10.6667C56 9.19391 54.8061 8 53.3333 8H10.6667ZM13.3333 21.3333V13.3333H50.6667V21.3333H13.3333Z" fill="#60A5FA"></path>
+        <path d="M32 36C33.4728 36 34.6667 37.1939 34.6667 38.6667V45.334H37.3334V58.6673H26.6667V45.334H29.3334V41.3333H13.3334C11.8606 41.3333 10.6667 40.1394 10.6667 38.6667V32H16V36H32Z" fill="#BFDBFE"></path>
+        <path d="M48.002 35.998L52 32L55.9981 35.998C57.6184 37.2142 58.6667 39.1514 58.6667 41.3333C58.6667 45.0152 55.6819 48 52 48C48.3181 48 45.3333 45.0152 45.3333 41.3333C45.3333 39.1514 46.3816 37.2142 48.002 35.998Z" fill="#BFDBFE"></path>
+    </svg>
+
+                <p>Classroom dengan tampilan baru saat ini dalam tahap uji coba. Anda dapat mengembalikan tampilan Classroom ke tampilan sebelumnya.</p>
+        
+        <div class="d-flex mt-3 justify-content-center">
+            <span class="small mr-2 ">Tampilan lama</span>
+            <div class="custom-control custom-switch">
+                <input type="checkbox" class="custom-control-input" id="classroom-toggle" data-enabled="https://www.dicoding.com/features/enabled?feature=classroom_v3&amp;from_classroom=1&amp;id=86&amp;tutorial_id=16415" data-disabled="https://www.dicoding.com/features/disabled?feature=classroom_v3&amp;from_classroom=1&amp;id=86&amp;tutorial_id=16415" checked="">
+                <label class="custom-control-label small  font-weight-600 " for="classroom-toggle">Tampilan baru</label>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="overlay-box">
+    <div id="module-list" data-controller="moduleSearch">
+        <div class="module-list__header">
+            <h5 class="font-weight-bold mb-0 mt-2">Modul</h5>
+            <button class="dcd-btn btn-ghost" id="module-btn-close">
+                <svg width="14" height="14" class="" viewBox="0 0 14 14" fill="#3F3F46" xmlns="http://www.w3.org/2000/svg">
+    <path d="M13 1L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M1 1L13 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>            </button>
+        </div>
+
+        <div class="module-list__content">
+            <!--ALERT-->
+                                                                    <div class="list-group list-group-flush">
+                    
+                    <a href="https://www.dicoding.com/academies/86/tutorials/16415" class="list-group-item dcd-list-group-item d-flex justify-content-start align-items-center py-3 px-0 remove-style-link collapsed" data-toggle="collapse" data-target="#module-1">
+                        <i class="fa fa-chevron-up text-gray-400 dcd-list-group-item__indicator mr-3"></i>
+                        <div class="font-weight-bold d-flex flex-wrap">Persiapan Belajar</div>
+                    </a>
+                    <div class="module-list-content collapse" id="module-1">
+                    
+                            <div class="module-list-item module-list-item--categorized">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/4914" title="Persetujuan Hak Cipta" class="module-list-item__link">Persetujuan Hak Cipta <small>(Gratis)</small></a></div>
+                            <div class="module-list-item module-list-item--categorized">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/15980" title="Mekanisme Belajar" class="module-list-item__link">Mekanisme Belajar <small>(Gratis)</small></a></div>
+                            <div class="module-list-item module-list-item--categorized">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/15985" title="Forum Diskusi" class="module-list-item__link">Forum Diskusi <small>(Gratis)</small></a></div>
+                            <div class="module-list-item module-list-item--categorized">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/15975" title="Glossarium" class="module-list-item__link">Glossarium <small>(Gratis)</small></a></div>
+                            <div class="module-list-item module-list-item--categorized">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/15983" title="Daftar Referensi" class="module-list-item__link">Daftar Referensi <small>(Gratis)</small></a></div></div>
+                    <a href="https://www.dicoding.com/academies/86/tutorials/16415" class="list-group-item dcd-list-group-item d-flex justify-content-start align-items-center py-3 px-0 remove-style-link collapsed" data-toggle="collapse" data-target="#module-6">
+                        <i class="fa fa-chevron-up text-gray-400 dcd-list-group-item__indicator mr-3"></i>
+                        <div class="font-weight-bold d-flex flex-wrap">Pendahuluan</div>
+                    </a>
+                    <div class="module-list-content collapse" id="module-6">
+                    
+                            <div class="module-list-item module-list-item--categorized">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/4733" title="Pengenalan Python" class="module-list-item__link">Pengenalan Python <small>(Gratis)</small></a></div>
+                            <div class="module-list-item module-list-item--categorized">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/4736" title="Mengapa Python" class="module-list-item__link">Mengapa Python <small>(Gratis)</small></a></div>
+                            <div class="module-list-item module-list-item--categorized">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/4738" title="Instalasi Python pada Operating System" class="module-list-item__link">Instalasi Python pada Operating System <small>(Gratis)</small></a></div>
+                            <div class="module-list-item module-list-item--categorized">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/10747" title="Python pada IDE dan Notebook" class="module-list-item__link">Python pada IDE dan Notebook <small>(Gratis)</small></a></div></div>
+                    <a href="https://www.dicoding.com/academies/86/tutorials/16415" class="list-group-item dcd-list-group-item d-flex justify-content-start align-items-center py-3 px-0 remove-style-link collapsed" data-toggle="collapse" data-target="#module-10">
+                        <i class="fa fa-chevron-up text-gray-400 dcd-list-group-item__indicator mr-3"></i>
+                        <div class="font-weight-bold d-flex flex-wrap">Dasar Python</div>
+                    </a>
+                    <div class="module-list-content collapse" id="module-10">
+                    
+                            <div class="module-list-item module-list-item--categorized">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/4751" title="Mode pada Python" class="module-list-item__link">Mode pada Python</a></div>
+                            <div class="module-list-item module-list-item--categorized">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/4745" title="Style Guide Indentasi" class="module-list-item__link">Style Guide Indentasi</a></div>
+                            <div class="module-list-item module-list-item--categorized">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/4746" title="Style Guide Penggantian Baris, Komentar, dan Dokumentasi" class="module-list-item__link">Style Guide Penggantian Baris, Koment...</a></div>
+                            <div class="module-list-item module-list-item--categorized">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/16395" title="Knowledge Check - Dasar Python" class="module-list-item__link">Knowledge Check - Dasar Python</a></div></div>
+                    <a href="https://www.dicoding.com/academies/86/tutorials/16415" class="list-group-item dcd-list-group-item d-flex justify-content-start align-items-center py-3 px-0 remove-style-link collapsed" data-toggle="collapse" data-target="#module-14">
+                        <i class="fa fa-chevron-up text-gray-400 dcd-list-group-item__indicator mr-3"></i>
+                        <div class="font-weight-bold d-flex flex-wrap">Tipe Data pada Python</div>
+                    </a>
+                    <div class="module-list-content collapse" id="module-14">
+                    
+                            <div class="module-list-item module-list-item--categorized">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/4758" title="Numbers, String, dan Boolean" class="module-list-item__link">Numbers, String, dan Boolean</a></div>
+                            <div class="module-list-item module-list-item--categorized">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/6414" title="List, Slicing, Tuple, Set, dan Dictionary" class="module-list-item__link">List, Slicing, Tuple, Set, dan Dictio...</a></div>
+                            <div class="module-list-item module-list-item--categorized">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/16400" title="Knowledge Check - Tipe Data" class="module-list-item__link">Knowledge Check - Tipe Data</a></div></div>
+                    <a href="https://www.dicoding.com/academies/86/tutorials/16415" class="list-group-item dcd-list-group-item d-flex justify-content-start align-items-center py-3 px-0 remove-style-link collapsed" data-toggle="collapse" data-target="#module-17">
+                        <i class="fa fa-chevron-up text-gray-400 dcd-list-group-item__indicator mr-3"></i>
+                        <div class="font-weight-bold d-flex flex-wrap">Input/Output dan Operasi pada Python</div>
+                    </a>
+                    <div class="module-list-content collapse" id="module-17">
+                    
+                            <div class="module-list-item module-list-item--categorized">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/4754" title="Input/Output pada Python" class="module-list-item__link">Input/Output pada Python</a></div>
+                            <div class="module-list-item module-list-item--categorized">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/4755" title="Dynamic Typing pada Python" class="module-list-item__link">Dynamic Typing pada Python</a></div>
+                            <div class="module-list-item module-list-item--categorized">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/4762" title="Transformasi Angka, Karakter dan String" class="module-list-item__link">Transformasi Angka, Karakter dan String</a></div>
+                            <div class="module-list-item module-list-item--categorized">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/4759" title="Operasi pada List, Set, dan String" class="module-list-item__link">Operasi pada List, Set, dan String</a></div>
+                            <div class="module-list-item module-list-item--categorized">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/4765" title="Operator, Operands, dan Expressions" class="module-list-item__link">Operator, Operands, dan Expressions</a></div>
+                            <div class="module-list-item module-list-item--categorized">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/10719" title="Knowledge Check - Input/Output dan Operasi pada Python" class="module-list-item__link">Knowledge Check - Input/Output dan Op...</a></div></div>
+                    <a href="https://www.dicoding.com/academies/86/tutorials/16415" class="list-group-item dcd-list-group-item d-flex justify-content-start align-items-center py-3 px-0 remove-style-link collapsed" data-toggle="collapse" data-target="#module-23">
+                        <i class="fa fa-chevron-up text-gray-400 dcd-list-group-item__indicator mr-3"></i>
+                        <div class="font-weight-bold d-flex flex-wrap">Style Guide pada Python</div>
+                    </a>
+                    <div class="module-list-content collapse" id="module-23">
+                    
+                            <div class="module-list-item module-list-item--categorized">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/6424" title="Pengecekan Style Guide PEP8 " class="module-list-item__link">Pengecekan Style Guide PEP8 </a></div>
+                            <div class="module-list-item module-list-item--categorized">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/6429" title="Memformat Kode" class="module-list-item__link">Memformat Kode</a></div>
+                            <div class="module-list-item module-list-item--categorized">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/4747" title="Style Guide Statement Gabungan" class="module-list-item__link">Style Guide Statement Gabungan</a></div>
+                            <div class="module-list-item module-list-item--categorized">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/4748" title="Style Guide Prinsip Penamaan pada Python" class="module-list-item__link">Style Guide Prinsip Penamaan pada Python</a></div>
+                            <div class="module-list-item module-list-item--categorized">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/16403" title="Knowledge Check - Style Guide" class="module-list-item__link">Knowledge Check - Style Guide</a></div></div>
+                    <a href="https://www.dicoding.com/academies/86/tutorials/16415" class="list-group-item dcd-list-group-item d-flex justify-content-start align-items-center py-3 px-0 remove-style-link collapsed" data-toggle="collapse" data-target="#module-28">
+                        <i class="fa fa-chevron-up text-gray-400 dcd-list-group-item__indicator mr-3"></i>
+                        <div class="font-weight-bold d-flex flex-wrap">Control Flow</div>
+                    </a>
+                    <div class="module-list-content collapse" id="module-28">
+                    
+                            <div class="module-list-item module-list-item--categorized">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/4766" title="Percabangan dan Ternary Operators" class="module-list-item__link">Percabangan dan Ternary Operators</a></div>
+                            <div class="module-list-item module-list-item--categorized">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/4769" title="Perulangan" class="module-list-item__link">Perulangan</a></div>
+                            <div class="module-list-item module-list-item--categorized">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/4771" title="Kontrol Perulangan" class="module-list-item__link">Kontrol Perulangan</a></div>
+                            <div class="module-list-item module-list-item--categorized">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/16405" title="Knowledge Check - Control Flow" class="module-list-item__link">Knowledge Check - Control Flow</a></div></div>
+                    <a href="https://www.dicoding.com/academies/86/tutorials/16415" class="list-group-item dcd-list-group-item d-flex justify-content-start align-items-center py-3 px-0 remove-style-link collapsed" data-toggle="collapse" data-target="#module-32">
+                        <i class="fa fa-chevron-up text-gray-400 dcd-list-group-item__indicator mr-3"></i>
+                        <div class="font-weight-bold d-flex flex-wrap">Penanganan Kesalahan</div>
+                    </a>
+                    <div class="module-list-content collapse" id="module-32">
+                    
+                            <div class="module-list-item module-list-item--categorized">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/6416" title="Penanganan Kesalahan (Error dan Exception Handling)" class="module-list-item__link">Penanganan Kesalahan (Error dan Excep...</a></div>
+                            <div class="module-list-item module-list-item--categorized">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/6421" title="Penanganan Pengecualian" class="module-list-item__link">Penanganan Pengecualian</a></div>
+                            <div class="module-list-item module-list-item--categorized">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/16410" title="Knowledge Check - Penanganan Kesalahan" class="module-list-item__link">Knowledge Check - Penanganan Kesalahan</a></div></div>
+                    <a href="https://www.dicoding.com/academies/86/tutorials/16415" class="list-group-item dcd-list-group-item d-flex justify-content-start align-items-center py-3 px-0 remove-style-link collapsed" data-toggle="collapse" data-target="#module-35">
+                        <i class="fa fa-chevron-up text-gray-400 dcd-list-group-item__indicator mr-3"></i>
+                        <div class="font-weight-bold d-flex flex-wrap">Fungsi dan Method</div>
+                    </a>
+                    <div class="module-list-content collapse" id="module-35">
+                    
+                            <div class="module-list-item module-list-item--categorized">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/5017" title="Definisi, Memanggil, dan Mengembalikan Fungsi" class="module-list-item__link">Definisi, Memanggil, dan Mengembalika...</a></div>
+                            <div class="module-list-item module-list-item--categorized">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/5020" title="Argumen dan Parameter" class="module-list-item__link">Argumen dan Parameter</a></div>
+                            <div class="module-list-item module-list-item--categorized">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/5077" title="Menulis Modul dan Kelas pada Python" class="module-list-item__link">Menulis Modul dan Kelas pada Python</a></div>
+                            <div class="module-list-item module-list-item--categorized">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/10723" title="Knowledge Check - Fungsi dan Method." class="module-list-item__link">Knowledge Check - Fungsi dan Method.</a></div></div>
+                    <a href="https://www.dicoding.com/academies/86/tutorials/16415" class="list-group-item dcd-list-group-item d-flex justify-content-start align-items-center py-3 px-0 remove-style-link collapsed" data-toggle="collapse" data-target="#module-39">
+                        <i class="fa fa-chevron-up text-gray-400 dcd-list-group-item__indicator mr-3"></i>
+                        <div class="font-weight-bold d-flex flex-wrap">Pemrograman Berorientasi Objek</div>
+                    </a>
+                    <div class="module-list-content collapse" id="module-39">
+                    
+                            <div class="module-list-item module-list-item--categorized">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/6432" title="Class, Object, dan Method" class="module-list-item__link">Class, Object, dan Method</a></div>
+                            <div class="module-list-item module-list-item--categorized">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/6435" title="Inheritance" class="module-list-item__link">Inheritance</a></div>
+                            <div class="module-list-item module-list-item--categorized js-current-module">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/16415" title="Knowledge Check - Pemrograman Berorientasi Objek" class="module-list-item__link"><strong>Knowledge Check - Pemrograman Berorie...</strong></a></div></div>
+                    <a href="https://www.dicoding.com/academies/86/tutorials/16415" class="list-group-item dcd-list-group-item d-flex justify-content-start align-items-center py-3 px-0 remove-style-link collapsed" data-toggle="collapse" data-target="#module-42">
+                        <i class="fa fa-chevron-up text-gray-400 dcd-list-group-item__indicator mr-3"></i>
+                        <div class="font-weight-bold d-flex flex-wrap">Unit Testing</div>
+                    </a>
+                    <div class="module-list-content collapse" id="module-42">
+                    
+                            <div class="module-list-item module-list-item--categorized">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/10742" title="Unit Testing" class="module-list-item__link">Unit Testing</a></div>
+                            <div class="module-list-item module-list-item--categorized">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/16420" title="Knowledge Check - Unit Testing" class="module-list-item__link">Knowledge Check - Unit Testing</a></div></div>
+                    <a href="https://www.dicoding.com/academies/86/tutorials/16415" class="list-group-item dcd-list-group-item d-flex justify-content-start align-items-center py-3 px-0 remove-style-link collapsed" data-toggle="collapse" data-target="#module-44">
+                        <i class="fa fa-chevron-up text-gray-400 dcd-list-group-item__indicator mr-3"></i>
+                        <div class="font-weight-bold d-flex flex-wrap">Library Populer pada Python</div>
+                    </a>
+                    <div class="module-list-content collapse" id="module-44">
+                    
+                            <div class="module-list-item module-list-item--categorized">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/5082" title="Library Populer pada Python" class="module-list-item__link">Library Populer pada Python</a></div></div>
+                    <a href="https://www.dicoding.com/academies/86/tutorials/16415" class="list-group-item dcd-list-group-item d-flex justify-content-start align-items-center py-3 px-0 remove-style-link collapsed" data-toggle="collapse" data-target="#module-45">
+                        <i class="fa fa-chevron-up text-gray-400 dcd-list-group-item__indicator mr-3"></i>
+                        <div class="font-weight-bold d-flex flex-wrap">Penutup</div>
+                    </a>
+                    <div class="module-list-content collapse" id="module-45">
+                    
+                            <div class="module-list-item module-list-item--categorized">
+                                <div class="module-list-item__status">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.4701 7.13799C10.7305 6.87764 10.7305 6.45553 10.4701 6.19518C10.2098 5.93483 9.78764 5.93483 9.52729 6.19518L7.33203 8.39044L6.4701 7.52851C6.20975 7.26816 5.78764 7.26816 5.52729 7.52851C5.26694 7.78886 5.26694 8.21097 5.52729 8.47132L6.86063 9.80466C7.12098 10.065 7.54309 10.065 7.80344 9.80466L10.4701 7.13799Z" fill="#10B981"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.9987 1.33325C4.3168 1.33325 1.33203 4.31802 1.33203 7.99992C1.33203 11.6818 4.3168 14.6666 7.9987 14.6666C11.6806 14.6666 14.6654 11.6818 14.6654 7.99992C14.6654 4.31802 11.6806 1.33325 7.9987 1.33325ZM2.66536 7.99992C2.66536 5.0544 5.05318 2.66659 7.9987 2.66659C10.9442 2.66659 13.332 5.0544 13.332 7.99992C13.332 10.9454 10.9442 13.3333 7.9987 13.3333C5.05318 13.3333 2.66536 10.9454 2.66536 7.99992Z" fill="#10B981"></path>
+                        </svg>
+                </div>
+                                <a href="https://www.dicoding.com/academies/86/tutorials/6540" title="Ujian Akhir" class="module-list-item__link">Ujian Akhir</a></div></div>
+                </div>
+                    </div>
+    </div>
+</div>
+
+            </section>
+    <video id="webcam" autoplay="" playsinline="" width="272" class="position-relative shadow" style="display: none"></video>
+        </div>
+    </div>
+
+                <div class="classroom-bottom-nav bg-white">
+            <div class="row">
+    <div class="col-2 col-md-4">
+                    <a href="https://www.dicoding.com/academies/86/tutorials/6435" class="classroom-bottom-nav__prev">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="12" cy="12" r="10" stroke="#E4E4E7"></circle>
+    <path d="M14.7071 8.70718L11.4142 12.0001L14.7071 15.293L13.2929 16.7072L9.29289 12.7072C8.90237 12.3167 8.90237 11.6835 9.29289 11.293L13.2929 7.29297L14.7071 8.70718Z" fill="#3F3F46"></path>
+</svg>
+                <span title="Inheritance" class="text-ellipsis">Inheritance</span>
+            </a>
+            </div>
+
+    <div class="col-md-4 col">
+        <p class="classroom-bottom-nav__title text-ellipsis" title="Knowledge Check - Pemrograman Berorientasi Objek">Knowledge Check - Pemrograman Berorientasi ..</p>
+    </div>
+
+    <div class="col-2 col-md-4 d-flex justify-content-end align-items-center">
+                                    <a href="https://www.dicoding.com/academies/86/tutorials/10742?from=16415" class="d-flex align-items-center classroom-bottom-nav__next js-btn-next-tutorial ">
+                    <span title="Unit Testing" class="text-ellipsis">Unit Testing</span>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="12" cy="12" r="10" stroke="#E4E4E7"></circle>
+    <path d="M9.29297 15.293L12.5859 12.0001L9.29297 8.70718L10.7072 7.29297L14.7072 11.293C15.0977 11.6835 15.0977 12.3167 14.7072 12.7072L10.7072 16.7072L9.29297 15.293Z" fill="#3F3F46"></path>
+</svg>
+                </a>
+                        </div>
+</div>
+        </div>
+                                    </div>
+
+    <div class="modal fade" id="what-is-points" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg  js-visible-when-already" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Apa itu Dicoding Point?</h4>
+            </div>
+
+            <div class="view overlay z-depth-1">
+                <img src="./Knowledge Check - Pemrograman Berorientasi Objek_files/image.svg" data-original="https://dicoding-web-img.sgp1.cdn.digitaloceanspaces.com/original/commons/apa_itu_point.png" class="lazy img-fluid" alt="Apa itu Dicoding Point?">
+<noscript>
+    <img src='https://dicoding-web-img.sgp1.cdn.digitaloceanspaces.com/original/commons/apa_itu_point.png' class='noscript noscript-img img-fluid' alt='Apa itu Dicoding Point?' />
+</noscript>
+                <div class="mask rgba-white-slight flex-center">
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary shadow" data-dismiss="modal">Tutup</button>
+            </div>
+        </div>
+    </div>
+</div>
+    <script>
+        window.Dicoding = {
+            csrfToken: 'cM3je8JZkEuCA1WblDCjOVyOnTaAwLZ3fcAowGhs',
+            routes: {
+                logger: 'https://www.dicoding.com/logs'
+            }
+        }
+    </script>
+                            <script src="./Knowledge Check - Pemrograman Berorientasi Objek_files/commons_script-8da0567c64.js.download"></script><link rel="stylesheet" href="./Knowledge Check - Pemrograman Berorientasi Objek_files/css" media="all">
+        <script src="./Knowledge Check - Pemrograman Berorientasi Objek_files/v3common_script-53c00ec3a4.js.download"></script>
+    
+    
+
+        <script>
+      window.hj=window.hj||function(){(hj.q=hj.q||[]).push(arguments)};
+      hj('event', 'using_new_classroom');
+    </script>
+
+    <script>
+                
+        window.isExam = true;
+                    window.freezeTime = 0;
+            window.examRegistrationIdForShowingReport = 0;
+            window.minimumRequirement = 100;
+            window.isExamV3 = true;
+                    
+        window.disableFreshChat = true;
+        window.moduleSearchRoute = 'https://www.dicoding.com/academies/86/tutorials/search';
+        window.codeRunnerRoute = 'https://www.dicoding.com/interactivecode/run';
+        window.tutorialShowBaseRoute = 'https://www.dicoding.com/academies/86/tutorials';
+        window._token = 'cM3je8JZkEuCA1WblDCjOVyOnTaAwLZ3fcAowGhs';
+        window.beenShownClassroomOnboarding = true;
+        window._authed = true;
+        window.courseType = 1;
+
+    </script>
+
+    <script src="./Knowledge Check - Pemrograman Berorientasi Objek_files/mark.js@8.11.1"></script>
+    <script src="./Knowledge Check - Pemrograman Berorientasi Objek_files/academy-tutorial-show_script-4b04f77e59.js.download"></script>
+    <script src="./Knowledge Check - Pemrograman Berorientasi Objek_files/v3-tutorial-show_script-68874d3d74.js.download"></script>
+
+    <span data-secondary-data="1" data-secondary-type="freshChat"></span>
+
+
+
+            <div class="modal fade image-zoom-modal" id="image-zoom-modal" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <button type="button" class="btn image-zoom-modal__close-btn" data-dismiss="modal" aria-label="Close">
+                            <i class="fa fa-times" aria-hidden="true"></i>
+                        </button>
+                        <div class="modal-body">
+                            <img class="img-fluid img-fluid--full-width" data-image="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <iframe name="_hjRemoteVarsFrame" title="_hjRemoteVarsFrame" id="_hjRemoteVarsFrame" src="./Knowledge Check - Pemrograman Berorientasi Objek_files/box-0004cb77850b00d4aa7e1e08ff61e8f0.html" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe><iframe id="_hjSafeContext_54378213" src="./Knowledge Check - Pemrograman Berorientasi Objek_files/saved_resource.html" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe><div><div class="grecaptcha-badge" data-style="bottomright" style="width: 256px; height: 60px; display: block; transition: right 0.3s ease 0s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden; visibility: hidden;"><div class="grecaptcha-logo"><iframe title="reCAPTCHA" src="./Knowledge Check - Pemrograman Berorientasi Objek_files/anchor.html" width="256" height="60" role="presentation" name="a-n9vzm7kbn0fo" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><div class="grecaptcha-error"></div><textarea id="g-recaptcha-response-100000" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;" src="./Knowledge Check - Pemrograman Berorientasi Objek_files/saved_resource(1).html"></iframe></div><script type="text/javascript" src="./Knowledge Check - Pemrograman Berorientasi Objek_files/ea731dcb6f.js.download"></script><div class="modal-backdrop fade show"></div></body></html>
